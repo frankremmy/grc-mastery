@@ -2,31 +2,30 @@
 
 > Module notes from GRC Mastery. Status: **not started**
 
-## What this module covers
+_One paragraph, in my own words, on what this module covers and why it matters._
 
-_One paragraph, in my own words._
+## Lessons
 
-## Key concepts
-
-| Concept | What it means | Why it matters in practice |
+| # | Lesson | Notes |
 | --- | --- | --- |
-|  |  |  |
+| 1 | The real purpose of cyber security risk management | `01-purpose-of-risk-management.md` |
+| 2 | Identify cyber security threats | `02-identify-threats.md` |
+| 3 | Conduct cyber security risk assessments | `03-risk-assessments.md` |
+| 4 | Risk registers | `04-risk-registers.md` |
+| 5 | Cyber security frameworks | `05-cyber-security-frameworks.md` |
+| 6 | The CIA triad in the real world | `06-cia-triad.md` |
+| 7 | The OWASP secure design principles | `07-owasp-secure-design-principles.md` |
+| 8 | The NIST Cyber Security Framework | `08-nist-csf.md` |
+| 9 | Privacy Impact Assessments (PIA) | `09-privacy-impact-assessments.md` |
+| 10 | What most organisations get wrong about cyber security risk | `10-what-orgs-get-wrong.md` |
 
 ## Practical work
 
 - [ ] Knowledge check
-- [ ] Practical assessment
-- [ ] Case study
+- [ ] Practical assessment: CIA triad
+- [ ] Practical case study: risk assessment
 
-Deliverables live in `deliverables/` and are linked below once done.
-
-## Where this shows up in a real job
-
-_Tie back to L2/L3 support, Helium Health ISO 27001 coordination, home lab, etc._
-
-## Gotchas / what most orgs get wrong
-
--
+Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 
 ## Post
 

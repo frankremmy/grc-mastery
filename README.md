@@ -32,10 +32,12 @@ the artefacts.
 ## Layout
 
 ```
-modules/          one folder per module — notes, assets
+modules/NN-slug/  one folder per module. README is an index of that module's
+                  lessons; notes live in per-lesson NN-lesson-slug.md files
 deliverables/     finished artefacts from the practical assessments
-templates/        reusable blanks: risk register, audit program, TPRM questionnaire
-capstone-nist-program/
+templates/        reusable blanks: risk register, audit program, TPRM
+                  questionnaire, lesson notes, module README, blog post
+capstone-nist-program/   the NIST CSF capstone
 ```
 
 ## Frameworks and concepts covered

@@ -4,3 +4,6 @@ Thumbs.db
 ~$*
 .vscode/
 .idea/
+transcripts/
+*.m4a
+*.wav

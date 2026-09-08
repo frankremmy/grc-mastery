@@ -1,32 +1,26 @@
-# Data Security and DLP
+# Data Security and Data Loss Protection (DLP)
 
 > Module notes from GRC Mastery. Status: **not started**
 
-## What this module covers
+_One paragraph, in my own words, on what this module covers and why it matters._
 
-_One paragraph, in my own words._
+## Lessons
 
-## Key concepts
-
-| Concept | What it means | Why it matters in practice |
+| # | Lesson | Notes |
 | --- | --- | --- |
-|  |  |  |
+| 1 | Two real ways we can protect data | `01-two-ways-to-protect-data.md` |
+| 2 | Data classification | `02-data-classification.md` |
+| 3 | Data labelling | `03-data-labelling.md` |
+| 4 | Encryption in the real world | `04-encryption.md` |
+| 5 | Data loss protection mechanisms | `05-dlp-mechanisms.md` |
+| 6 | Practical limitations of DLPs | `06-dlp-limitations.md` |
 
 ## Practical work
 
 - [ ] Knowledge check
-- [ ] Practical assessment
-- [ ] Case study
+- [ ] Practical assessment: DLP
 
-Deliverables live in `deliverables/` and are linked below once done.
-
-## Where this shows up in a real job
-
-_Tie back to L2/L3 support, Helium Health ISO 27001 coordination, home lab, etc._
-
-## Gotchas / what most orgs get wrong
-
--
+Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 
 ## Post
 

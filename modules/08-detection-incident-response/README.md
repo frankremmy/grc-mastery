@@ -1,32 +1,28 @@
-# Detection and Incident Response
+# Cyber Security Detection and Incident Response
 
 > Module notes from GRC Mastery. Status: **not started**
 
-## What this module covers
+_One paragraph, in my own words, on what this module covers and why it matters._
 
-_One paragraph, in my own words._
+## Lessons
 
-## Key concepts
-
-| Concept | What it means | Why it matters in practice |
+| # | Lesson | Notes |
 | --- | --- | --- |
-|  |  |  |
+| 1 | Detection and monitoring | `01-detection-and-monitoring.md` |
+| 2 | Security information and event management (SIEM) | `02-siem.md` |
+| 3 | Managed security service provider (MSSP) | `03-mssp.md` |
+| 4 | Cyber security incident response | `04-incident-response.md` |
+| 5 | The MITRE ATT&CK framework | `05-mitre-attack.md` |
+| 6 | Cyber drills and crisis simulation | `06-cyber-drills.md` |
+| 7 | The role of external service providers in incident response | `07-external-providers.md` |
 
 ## Practical work
 
 - [ ] Knowledge check
-- [ ] Practical assessment
-- [ ] Case study
+- [ ] Practical assessment: incident response
+- [ ] Practical case study: incident response plan
 
-Deliverables live in `deliverables/` and are linked below once done.
-
-## Where this shows up in a real job
-
-_Tie back to L2/L3 support, Helium Health ISO 27001 coordination, home lab, etc._
-
-## Gotchas / what most orgs get wrong
-
--
+Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 
 ## Post
 
