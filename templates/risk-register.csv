@@ -1,0 +1,2 @@
+risk_id,asset,threat,vulnerability,existing_controls,likelihood,impact,inherent_risk,treatment,owner,target_date,residual_risk
+R-001,,,,,,,,,,,
