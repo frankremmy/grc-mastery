@@ -1,14 +1,16 @@
 # Cyber Security Risk Management
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Why cyber risk management exists as a discipline, how threats and risks get
+identified and assessed, and the frameworks and models used to do it — CIA triad,
+OWASP secure design principles, NIST CSF, and privacy impact assessments.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | The real purpose of cyber security risk management | `01-purpose-of-risk-management.md` |
+| 1 | The real purpose of cyber security risk management | [`01-purpose-of-risk-management.md`](01-purpose-of-risk-management.md) |
 | 2 | Identify cyber security threats | `02-identify-threats.md` |
 | 3 | Conduct cyber security risk assessments | `03-risk-assessments.md` |
 | 4 | Risk registers | `04-risk-registers.md` |
