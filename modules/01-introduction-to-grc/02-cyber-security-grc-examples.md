@@ -47,6 +47,13 @@ whoever picked up the ticket, whether or not governance intended that.
 
 ## Gotchas / what most orgs get wrong
 
+- **The course's own examples disprove its house analogy.** Its governance
+  examples are a security policy, appointing a CISO, standing up a risk
+  committee — all setup. Its risk management examples are identify, assess,
+  mitigate, monitor — all operation. That's the setup-vs-operate split, drawn
+  cleanly, in the same material that elsewhere files an alarm under governance and
+  locks under risk management. The examples are right and the analogy is wrong;
+  worth noticing which one to keep.
 - **The test is about the activity, not the artefact.** A risk register is not
   "governance" because a committee owns it. Writing the mandate that says a
   register must exist is governance; the entries in it are risk management.

@@ -8,7 +8,10 @@
 The lesson starts from a gap I hadn't named before. A security team does the work
 of managing cyber risk, but senior management has no direct way to know whether
 that work is actually happening or actually working. They're being asked to take
-the security team's word for it. That gap — between *doing* security and
+the security team's word for it. The sharper version of the argument: the internal
+team isn't necessarily lying, but it is *biased* — it's being asked to grade its
+own work, and a bank's security division claiming it follows PCI DSS has every
+incentive to believe itself. That gap — between *doing* security and
 *evidencing* it to people who can't evaluate it themselves — is where external
 consultants get pulled in, and it's why GRC knowledge is what the job needs. What
 a consultant hands to the board isn't a technical report; it's a risk-based view

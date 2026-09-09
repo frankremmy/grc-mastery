@@ -15,7 +15,7 @@ the artefacts.
 
 | # | Module | Notes | Practical | Case study |
 | --- | --- | :---: | :---: | :---: |
-| 01 | [Introduction to GRC](modules/01-introduction-to-grc/) | ☐ | — | — |
+| 01 | [Introduction to GRC](modules/01-introduction-to-grc/) | ☑ | — | — |
 | 02 | [Risk Management](modules/02-risk-management/) | ☐ | ☐ | ☐ |
 | 03 | [Audit](modules/03-audit/) | ☐ | ☐ | ☐ |
 | 04 | [Asset Management](modules/04-asset-management/) | ☐ | ☐ | — |
