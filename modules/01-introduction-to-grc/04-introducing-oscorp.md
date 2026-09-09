@@ -45,30 +45,19 @@ holds before deciding how to handle it. A ticket about "the site is down" and a
 ticket about "customer data looks wrong" get triaged differently, and the
 difference isn't the severity field — it's what's inside.
 
-## Gotchas / what most orgs get wrong
+## My take
 
-- **"Pass all cyber security legal and compliance regulations" is the wrong
-  goal, and it's the client's own words.** You don't comply with all regulations;
-  you comply with the ones triggered by your data, your jurisdictions and your
-  business activities. The course's compliance examples list Australian Privacy
-  Act, GDPR, China Privacy Act, PCI DSS, ISO 27001 and CPS 234 — for a
-  bioengineering research firm, several of those almost certainly don't apply.
-  PCI DSS is triggered by handling cardholder data; CPS 234 by being an APRA
-  regulated entity. A consultant who nods along and assesses against all six is
-  billing for work the client doesn't need. The first deliverable of a real
-  engagement is the applicability analysis, not the assessment.
-- **The sponsor is also the risk.** Norman wants security because of a secret
-  project he owns. That makes him the engagement sponsor, the crown-jewel data
-  owner, and the person with the strongest incentive to route around any control
-  that slows the project down. The course presents his interest as an unqualified
-  positive. In practice a CEO-owned confidential project is a textbook setup for
-  exception-by-authority, and any access model for that project needs to survive
-  its own sponsor. (The course is naming a comic-book villain as the client's
-  CEO, which I assume is a joke, but the org design point stands on its own.)
-- **A profile assembled lesson by lesson will drift.** If each assessment invents
-  the Oscorp facts it needs, module 4's asset inventory won't match module 9's
-  supplier list. One profile file, updated as facts land, with assumptions marked
-  as assumptions.
-- **Course images stay out of the repo.** The lesson's Oscorp render and the GRC
-  diagrams are the course's own assets. Same rule as the transcripts — described,
-  not reproduced.
+The interesting part is how little we're given: a sector, a sponsor and a goal.
+That's roughly what a real first client meeting hands you, and the work is turning
+it into scope. So rather than let each assessment invent the Oscorp facts it
+needs, everything lands in one profile with assumptions marked as assumptions.
+
+The goal as stated — pass all cyber security legal and compliance regulations —
+is worth reframing early with a client. You comply with what your data, your
+jurisdictions and your activities trigger, not with everything on a list. Working
+out which regimes actually apply is the first deliverable, and for Oscorp several
+of the course's examples almost certainly don't.
+
+Worth noting for later: Norman is the sponsor, the owner of the crown-jewel data,
+and the person with the strongest reason to want an exception when a control slows
+his project down. Any access model for that project has to hold against him.

@@ -15,10 +15,10 @@ commits stay granular and each lesson maps to one potential post.
 
 ## Lesson note format
 
-Summary → key concepts table → "where this shows up in a real job" → gotchas.
-See `templates/lesson-notes.md`. The gotchas section is the differentiator: it's
-where I disagree with the course or add what the lesson left out. A note without
-one isn't finished.
+Summary → key concepts table → "where this shows up in a real job" → my take.
+See `templates/lesson-notes.md`. The notes are for understanding and for sharing
+my thinking, not for grading the course. Where the course phrases something
+loosely, the note just states it correctly rather than calling it out.
 
 ## Content rule
 
@@ -34,6 +34,12 @@ Transcripts, if generated for study, stay local and gitignored (`transcripts/`,
   solution videos, and say so in the commit. A repo of transcribed model answers
   is worth less than one showing where I disagreed with them.
 - Update the progress table in the root README when a module closes out.
+
+## Risk registers
+
+Registers are CSV, not markdown tables. GitHub renders CSV as a table anyway, so
+nothing is lost on the page, and a CSV diffs properly and matches the real
+artefact. `templates/risk-register.csv` is the canonical blank.
 
 ## Assets
 

@@ -19,11 +19,8 @@ _Concrete tie-back: L2/L3 support at Automattic, the Helium Health ISO 27001
 coordination, the home lab, the MSc. One real example beats three vague ones.
 If there's no honest connection, say so instead of inventing one._
 
-## Gotchas / what most orgs get wrong
+## My take
 
-_The section that earns the repo its existence. Where I disagree with the
-course, where the lesson stopped short, or where the model breaks in a real
-org. At least one entry — if I can't find one, I haven't understood the
-lesson well enough yet._
-
--
+_What I'd want someone to take away, in my own words. The thread I found most
+useful, what I'd tell a colleague, what I want to remember when this comes up in
+a real job. This is the part that makes the notes mine rather than a recap._

@@ -41,18 +41,17 @@ governance is supposed to have already answered. When it hasn't, L2 ends up
 making risk decisions by default and without a mandate — which is a governance
 failure showing up in a ticket queue.
 
-## Gotchas / what most orgs get wrong
+## My take
 
-- **The course's house analogy doesn't hold up.** It files the alarm under
-  governance and the locks under risk management. Both are controls — the output,
-  not the discipline. A version that maps properly: governance is the household
-  rules and who enforces them; risk management is deciding the back window is the
-  weak point and worth spending on before the shed; compliance is the building
-  inspector signing off. Keeping this clean matters, because the most common
-  failure in real programs is exactly the confusion the analogy encodes — buying
-  tools and calling it a risk program.
-- **The three aren't sequential.** They run continuously and feed each other.
-  Treating GRC as a project with an end date is how you get a policy set that's
-  accurate on certification day and stale six months later.
-- **Compliant is not secure.** A certificate proves a control existed at audit
-  time. It says nothing about whether it worked on any other day.
+The way I'd explain the three to someone else, using the house the lesson picks:
+governance is the household rules and who enforces them; risk management is
+deciding the back window is the weak point and worth spending on before the shed;
+compliance is the building inspector signing off. The alarm and the locks aren't
+any of the three — they're controls, the output rather than the discipline. That
+mapping is the one that stays straight in my head.
+
+Two things I want to carry forward. The three aren't sequential; they run
+continuously and feed each other, so a policy set that was accurate on
+certification day and stale six months later has failed even though nothing was
+skipped. And compliant is not secure — a certificate says a control existed at
+audit time, not that it worked on any other day.

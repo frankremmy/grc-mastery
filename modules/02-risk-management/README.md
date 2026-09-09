@@ -11,7 +11,7 @@ OWASP secure design principles, NIST CSF, and privacy impact assessments.
 | # | Lesson | Notes |
 | --- | --- | --- |
 | 1 | The real purpose of cyber security risk management | [`01-purpose-of-risk-management.md`](01-purpose-of-risk-management.md) |
-| 2 | Identify cyber security threats | `02-identify-threats.md` |
+| 2 | Identify cyber security threats | [`02-identify-threats.md`](02-identify-threats.md) |
 | 3 | Conduct cyber security risk assessments | `03-risk-assessments.md` |
 | 4 | Risk registers | `04-risk-registers.md` |
 | 5 | Cyber security frameworks | `05-cyber-security-frameworks.md` |

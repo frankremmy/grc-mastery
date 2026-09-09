@@ -57,35 +57,21 @@ The health-sector framing lands close to Helium Health, though I want to be
 precise about the seat I was in: I coordinated an ISO 27001 certification, which
 is compliance work. I wasn't making treatment calls on clinical risk.
 
-## Gotchas / what most orgs get wrong
+## My take
 
-- **The lesson proves prioritisation is necessary, then quietly assumes one
-  method.** "Rate impact, rate likelihood, multiply, rank" is presented as *the*
-  technique. It's a technique — and a contested one. Ordinal scales (1–5, or
-  low/medium/high) aren't numbers you can legitimately multiply; the arithmetic
-  produces an ordering that looks quantitative and isn't. Module 11 teaches FAIR,
-  which exists largely because of this problem. The course teaches both and
-  doesn't say they disagree. Worth flagging now so I read module 2 knowing
-  module 11 is coming to argue with it.
-- **The analysts complaining about spreadsheets are half right.** The lesson
-  treats their objection as ignorance. The steelman: a register that doesn't lead
-  to a funding decision or a signed acceptance is genuinely wasted effort, and
-  plenty of them don't. The defence of risk management isn't "we document
-  things", it's "documenting things is what unlocked the budget." If it didn't
-  unlock anything, the analyst's complaint stands.
-- **"Accept" without an owner and an expiry means "ignore".** The lesson names
-  acceptance as a valid outcome but not what makes it valid. An accepted risk
-  needs a named individual senior enough to carry it, a date it gets revisited,
-  and a record of what was known at the time. Without those three, acceptance is
-  just the risk falling off the list with extra steps.
-- **A register built from pentest findings inherits the pentest's scope.** The
-  $5M list is what testers found in what they were pointed at. The organisation's
-  largest risk may be a supplier, a process, or a person, and no amount of ranking
-  the report surfaces it. Treating the findings list as the risk universe is how
-  you end up with a well-prioritised register that misses the thing that actually
-  happens.
-- **The hospital example is strong precisely because money isn't the unit.** The
-  board understands patient harm without translation into dollars. Most risk
-  matrices are calibrated in financial impact and handle safety, legal and harm
-  impacts by squeezing them onto the same scale. The lesson's best example is one
-  its own method struggles with.
+The hospital scenario is the best answer I've seen to "why do GRC people live in
+spreadsheets". The necessity is structural: remediation cost exceeds budget as a
+permanent condition, and nothing in a technical report tells you which findings
+matter most. Rating and ranking them is what turns a defect list into a decision
+someone can actually make.
+
+Two things I want to hold onto. Acceptance is a legitimate outcome, but it only
+counts when a named person senior enough to carry it signs, with a date it gets
+revisited and a record of what was known at the time — otherwise it's the risk
+falling off the list with extra steps. And the example works because patient harm
+isn't measured in money, which is a useful reminder that the impacts that matter
+most are often the ones a financial scale handles worst.
+
+The findings list also isn't the risk universe. It's what testers found in what
+they were pointed at; the biggest exposure might be a supplier, a process or a
+person that no pentest would surface.

@@ -54,26 +54,16 @@ problem the board has with security, minus a few zeroes.
 I should be careful not to overclaim here: I have no consulting experience. What
 I have is the client-side view of one certification, which is a different seat.
 
-## Gotchas / what most orgs get wrong
+## My take
 
-- **The two roles conflict, and the lesson doesn't say so.** If a firm advises you
-  on building your program and then assesses it, they're auditing their own work.
-  The advisory consultant who "acts as part of your team" has, by that very fact,
-  disqualified themselves from assuring it. This isn't a hypothetical purity
-  concern — it's the thing independence rules in the audit world exist to stop,
-  and it's why large firms wall the two practices apart. Worth checking how PCI's
-  QSA independence requirements handle exactly this case, since the lesson uses
-  PCI as its advisory example.
-- **"We got a clean report" is the compliant-is-not-secure error again.** An
-  assessment is point-in-time and scope-limited. Management reads it as a verdict
-  on the organisation; it's a verdict on whatever was in scope, on the days the
-  assessor looked.
-- **Scope is set by whoever's paying.** The consultant assesses what the
-  engagement letter says. An organisation that doesn't want a particular area
-  looked at simply leaves it out, and nothing in the resulting report will say so
-  loudly. When reading someone else's assessment, the scope section is the most
-  informative page in it.
-- **Advisory creates a knowledge cliff.** Bringing in cross-industry expertise
-  works, but when the engagement ends the expertise leaves unless someone internal
-  owned it the whole way through. Orgs that treat advisory as outsourcing rather
-  than as transfer end up re-hiring for the same problem in two years.
+The independence is the product. An assessment is worth something precisely
+because the person doing it didn't build the thing — which means a firm that
+advises you on your program can't then assure it, and the two roles have to sit
+with different people. That's why large firms wall the practices apart, and it's
+worth knowing before choosing who to hire for which job.
+
+Two things I'd want a reader to take away. An assessment is point-in-time and
+scope-limited: the scope section is the most informative page in anyone's report,
+because it tells you what nobody looked at. And advisory only pays off if someone
+internal owns the knowledge as it comes in — otherwise the expertise leaves with
+the engagement.

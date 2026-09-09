@@ -45,24 +45,14 @@ escalation policy is governance. Deciding that *this* ticket is a security
 incident is not — that's an operational risk judgement, and it's usually made by
 whoever picked up the ticket, whether or not governance intended that.
 
-## Gotchas / what most orgs get wrong
+## My take
 
-- **The course's own examples disprove its house analogy.** Its governance
-  examples are a security policy, appointing a CISO, standing up a risk
-  committee — all setup. Its risk management examples are identify, assess,
-  mitigate, monitor — all operation. That's the setup-vs-operate split, drawn
-  cleanly, in the same material that elsewhere files an alarm under governance and
-  locks under risk management. The examples are right and the analogy is wrong;
-  worth noticing which one to keep.
-- **The test is about the activity, not the artefact.** A risk register is not
-  "governance" because a committee owns it. Writing the mandate that says a
-  register must exist is governance; the entries in it are risk management.
-- **Documentation currency is treated as an admin chore.** It's the compliance
-  work with the highest recurring cost and the lowest status, so it's the first
-  thing dropped. An org that can't produce a current, readable policy set on
-  demand doesn't have a compliance function, it has a certificate.
-- **"Closing audit gaps" quietly assumes the audit found them.** The three-part
-  model describes compliance as reactive to audit findings. That's honest about
-  how most orgs behave, but it means an unaudited control can be broken for
-  years and the compliance function is working as designed. Worth naming rather
-  than treating audit coverage as complete by default.
+Setup vs operate is the test I'll actually use, and the lesson's own examples back
+it up cleanly. Governance examples: write a security policy, appoint a CISO, stand
+up a risk committee — all setup. Risk management examples: identify, assess,
+mitigate, monitor — all operation.
+
+The compliance breakdown is the part I hadn't thought about properly. Adhering to
+the standard and closing audit gaps are the visible half. Maintaining current,
+auditable documentation is where the effort actually goes, and it's the part that
+gets scoped as a one-off project when it's really a standing job.
