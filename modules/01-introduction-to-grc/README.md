@@ -12,7 +12,7 @@ introduction to Oscorp — the case-study org the rest of the course builds on.
 | --- | --- | --- |
 | 1 | What is GRC? | [`01-what-is-grc.md`](01-what-is-grc.md) |
 | 2 | Cyber security GRC examples | [`02-cyber-security-grc-examples.md`](02-cyber-security-grc-examples.md) |
-| 3 | How does GRC fit within cyber security consulting? | `03-grc-in-consulting.md` |
+| 3 | How does GRC fit within cyber security consulting? | [`03-grc-in-consulting.md`](03-grc-in-consulting.md) |
 | 4 | Introducing Oscorp | `04-introducing-oscorp.md` |
 
 ## Practical work
