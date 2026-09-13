@@ -1,2 +1,2 @@
-risk_id,asset,threat,vulnerability,existing_controls,likelihood,impact,inherent_risk,treatment,owner,target_date,residual_risk
-R-001,,,,,,,,,,,
+risk_id,date_raised,scope,risk_description,threat,vulnerability,existing_controls,likelihood,impact,inherent_rating,proposed_treatment,treatment_effect,residual_rating,owner,decision,decided_by,decision_date,review_date,status,notes
+R-001,,,,,,,,,,,,,,,,,,,
