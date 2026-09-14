@@ -37,6 +37,7 @@ modules/NN-slug/  one folder per module. README is an index of that module's
 deliverables/     finished artefacts from the practical assessments
 templates/        reusable blanks: risk register, audit program, TPRM
                   questionnaire, lesson notes, module README, blog post
+reference/        published public standards and catalogues used across modules
 capstone-nist-program/   the NIST CSF capstone
 ```
 
