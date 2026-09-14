@@ -17,6 +17,8 @@ them.
 | CEO and founder | Norman Osborn | Mod 01 L4 |
 | Engagement | I'm a consultant at a Big 4 firm; Oscorp is my first client | Mod 01 L4 |
 | Stated driver | A confidential project the CEO is planning | Mod 01 L4 |
+| Chief Scientist | Harry Osborn | Mod 02 practical |
+| Confidential project | A new medication, early-stage development; candidate ingredient list held in a Word document | Mod 02 practical |
 | Stated goal | "Pass all cyber security legal and compliance regulations" | Mod 01 L4 |
 
 ## Not yet stated

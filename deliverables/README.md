@@ -5,8 +5,8 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 
 | Artefact | Module | Type | Status |
 | --- | --- | --- | --- |
-| CIA triad assessment | 02 | Analysis | Not started |
-| Risk assessment case study | 02 | Risk register | Not started |
+| [CIA triad assessment](02-cia-triad-assessment.md) | 02 | Analysis | Draft — pre-solution |
+| [Risk assessment case study](02-risk-assessment-wayne.md) | 02 | Risk register | Draft — pre-solution |
 | Audit program | 03 | Audit plan | Not started |
 | Three lines of defence case study | 03 | Analysis | Not started |
 | Asset management assessment | 04 | Asset inventory | Not started |
