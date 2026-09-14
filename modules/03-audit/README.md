@@ -1,16 +1,17 @@
 # Cyber Security Audit
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+What audit is and what it's for, the three lines of defence model, how audit
+actually runs in practice, and where the current approach falls short.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | What is auditing? | `01-what-is-auditing.md` |
-| 2 | The three lines of defence model (3LOD) | `02-three-lines-of-defence.md` |
-| 3 | Cyber security audit in the real world | `03-audit-in-the-real-world.md` |
+| 1 | What is auditing? | [`01-what-is-auditing.md`](01-what-is-auditing.md) |
+| 2 | The three lines of defence model (3LOD) | [`02-three-lines-of-defence.md`](02-three-lines-of-defence.md) |
+| 3 | Cyber security audit in the real world | [`03-audit-in-the-real-world.md`](03-audit-in-the-real-world.md) |
 | 4 | Problems with cyber security audit in the real world | `04-problems-with-audit.md` |
 
 ## Practical work
