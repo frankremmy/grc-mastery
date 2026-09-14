@@ -16,7 +16,7 @@ OWASP secure design principles, NIST CSF, and privacy impact assessments.
 | 4 | Risk registers | [`04-risk-registers.md`](04-risk-registers.md) |
 | 5 | Cyber security frameworks | [`05-cyber-security-frameworks.md`](05-cyber-security-frameworks.md) |
 | 6 | The CIA triad in the real world | [`06-cia-triad.md`](06-cia-triad.md) |
-| 7 | The OWASP secure design principles | `07-owasp-secure-design-principles.md` |
+| 7 | The OWASP secure design principles | [`07-owasp-secure-design-principles.md`](07-owasp-secure-design-principles.md) |
 | 8 | The NIST Cyber Security Framework | `08-nist-csf.md` |
 | 9 | Privacy Impact Assessments (PIA) | `09-privacy-impact-assessments.md` |
 | 10 | What most organisations get wrong about cyber security risk | `10-what-orgs-get-wrong.md` |
