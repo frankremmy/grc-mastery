@@ -7,8 +7,8 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | --- | --- | --- | --- |
 | [CIA triad assessment](02-cia-triad-assessment.md) | 02 | Analysis | Draft — pre-solution |
 | [Risk assessment case study](02-risk-assessment-wayne.md) | 02 | Risk register | Draft — pre-solution |
-| Audit program | 03 | Audit plan | Not started |
-| Three lines of defence case study | 03 | Analysis | Not started |
+| [Audit program](03-oscorp-audit-program.md) | 03 | Audit plan | Draft — pre-solution |
+| [Three lines of defence case study](03-3lod-case-study.md) | 03 | Analysis | Study notes — answers pending |
 | Asset management assessment | 04 | Asset inventory | Not started |
 | IAM assessment | 05 | Access review | Not started |
 | Education and awareness program | 06 | Program design | Not started |

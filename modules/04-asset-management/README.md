@@ -1,16 +1,18 @@
 # Asset Management
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Working out what the organisation actually has — identifying assets, classifying
+them, recording them in a CMDB — and why this foundational step is the one most
+organisations struggle with.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | What is asset management? | `01-what-is-asset-management.md` |
-| 2 | Types of assets | `02-types-of-assets.md` |
-| 3 | Asset identification | `03-asset-identification.md` |
+| 1 | What is asset management? | [`01-what-is-asset-management.md`](01-what-is-asset-management.md) |
+| 2 | Types of assets | [`02-types-of-assets.md`](02-types-of-assets.md) |
+| 3 | Asset identification | [`03-asset-identification.md`](03-asset-identification.md) |
 | 4 | Asset classification | `04-asset-classification.md` |
 | 5 | CMDB | `05-cmdb.md` |
 | 6 | Why organisations fail at asset management | `06-why-orgs-fail.md` |
