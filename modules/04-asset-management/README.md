@@ -13,8 +13,8 @@ organisations struggle with.
 | 1 | What is asset management? | [`01-what-is-asset-management.md`](01-what-is-asset-management.md) |
 | 2 | Types of assets | [`02-types-of-assets.md`](02-types-of-assets.md) |
 | 3 | Asset identification | [`03-asset-identification.md`](03-asset-identification.md) |
-| 4 | Asset classification | `04-asset-classification.md` |
-| 5 | CMDB | `05-cmdb.md` |
+| 4 | Asset classification | [`04-asset-classification.md`](04-asset-classification.md) |
+| 5 | CMDB | [`05-cmdb.md`](05-cmdb.md) |
 | 6 | Why organisations fail at asset management | `06-why-orgs-fail.md` |
 | 7 | Practical approach to asset management | `07-practical-approach.md` |
 
