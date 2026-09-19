@@ -1,6 +1,6 @@
 # Asset Management
 
-> Module notes from GRC Mastery. Status: **in progress**
+> Module notes from GRC Mastery. Status: **complete**
 
 Working out what the organisation actually has — identifying assets, classifying
 them, recording them in a CMDB — and why this foundational step is the one most

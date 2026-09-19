@@ -1,6 +1,6 @@
 # Cyber Security Risk Management
 
-> Module notes from GRC Mastery. Status: **in progress**
+> Module notes from GRC Mastery. Status: **complete**
 
 Why cyber risk management exists as a discipline, how threats and risks get
 identified and assessed, and the frameworks and models used to do it — CIA triad,

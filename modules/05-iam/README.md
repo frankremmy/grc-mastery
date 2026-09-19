@@ -1,6 +1,6 @@
 # Identity and Access Management (IAM)
 
-> Module notes from GRC Mastery. Status: **in progress**
+> Module notes from GRC Mastery. Status: **complete**
 
 Verifying who someone is and controlling what they can reach — authentication,
 multi-factor, password management in practice, authorisation, Active Directory and
