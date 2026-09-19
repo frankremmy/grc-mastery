@@ -10,7 +10,7 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Audit program](03-oscorp-audit-program.md) | 03 | Audit plan | Draft — pre-solution |
 | [Three lines of defence case study](03-3lod-case-study.md) | 03 | Analysis | Study notes — answers pending |
 | [Asset management assessment](04-oscorp-asset-management.md) | 04 | Process design | Draft — pre-solution |
-| IAM assessment | 05 | Access review | Not started |
+| [IAM assessment](05-oscorp-iam-assessment.md) | 05 | Access review | Draft — pre-solution |
 | Education and awareness program | 06 | Program design | Not started |
 | DLP assessment | 07 | Control design | Not started |
 | Incident response plan | 08 | Plan | Not started |

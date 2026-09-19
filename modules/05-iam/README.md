@@ -20,8 +20,8 @@ privileged access management.
 
 ## Practical work
 
-- [ ] Knowledge check
-- [ ] Practical assessment: IAM
+- [x] Knowledge check
+- [x] Practical assessment: IAM — [deliverable](../../deliverables/05-oscorp-iam-assessment.md)
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 

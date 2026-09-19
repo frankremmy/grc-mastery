@@ -1,14 +1,15 @@
 # Security Education and Awareness
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Educating people about security — phishing and social engineering, how awareness
+programmes are built and measured, and why they so often fail to change anything.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | The human element | `01-the-human-element.md` |
+| 1 | The human element | [`01-the-human-element.md`](01-the-human-element.md) |
 | 2 | Phishing | `02-phishing.md` |
 | 3 | Social engineering | `03-social-engineering.md` |
 | 4 | Education and awareness programs | `04-awareness-programs.md` |
