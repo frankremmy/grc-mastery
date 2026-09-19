@@ -1,15 +1,17 @@
 # Identity and Access Management (IAM)
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Verifying who someone is and controlling what they can reach — authentication,
+multi-factor, password management in practice, authorisation, Active Directory and
+privileged access management.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | The role of IAM in cyber security | `01-role-of-iam.md` |
-| 2 | Authentication | `02-authentication.md` |
+| 1 | The role of IAM in cyber security | [`01-role-of-iam.md`](01-role-of-iam.md) |
+| 2 | Authentication | [`02-authentication.md`](02-authentication.md) |
 | 3 | Multi-factor authentication (MFA) | `03-mfa.md` |
 | 4 | Managing passwords in the real world | `04-managing-passwords.md` |
 | 5 | Authorisation | `05-authorisation.md` |

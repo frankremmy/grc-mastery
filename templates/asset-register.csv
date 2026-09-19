@@ -1,0 +1,2 @@
+asset_id,asset_name,description,asset_type,business_owner,technical_custodian,department,business_process_supported,data_held,data_classification,confidentiality_rating,integrity_rating,availability_rating,maximum_tolerable_outage,criticality,crown_jewel,hosting_location,environment,supplier_third_party,components,date_identified,identified_by,last_validated,validated_by,next_review,status,notes
+A-001,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -15,13 +15,13 @@ organisations struggle with.
 | 3 | Asset identification | [`03-asset-identification.md`](03-asset-identification.md) |
 | 4 | Asset classification | [`04-asset-classification.md`](04-asset-classification.md) |
 | 5 | CMDB | [`05-cmdb.md`](05-cmdb.md) |
-| 6 | Why organisations fail at asset management | `06-why-orgs-fail.md` |
-| 7 | Practical approach to asset management | `07-practical-approach.md` |
+| 6 | Why organisations fail at asset management | [`06-why-orgs-fail.md`](06-why-orgs-fail.md) |
+| 7 | Practical approach to asset management | [`07-practical-approach.md`](07-practical-approach.md) |
 
 ## Practical work
 
-- [ ] Knowledge check
-- [ ] Practical assessment: asset management
+- [x] Knowledge check
+- [x] Practical assessment: asset management — [deliverable](../../deliverables/04-oscorp-asset-management.md)
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 

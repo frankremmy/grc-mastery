@@ -7,7 +7,7 @@
   per-lesson files named `NN-lesson-slug.md`, numbered in course order.
 - `deliverables/` — finished artefacts from the practical assessments.
 - `templates/` — reusable blanks: risk register, audit program, TPRM
-  questionnaire, lesson notes, module README, blog post.
+  questionnaire, asset register, lesson notes, module README, blog post.
 - `capstone-nist-program/` — the NIST CSF capstone.
 
 Notes started out in the module READMEs; they moved to one file per lesson so
