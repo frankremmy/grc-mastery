@@ -12,7 +12,7 @@ privileged access management.
 | --- | --- | --- |
 | 1 | The role of IAM in cyber security | [`01-role-of-iam.md`](01-role-of-iam.md) |
 | 2 | Authentication | [`02-authentication.md`](02-authentication.md) |
-| 3 | Multi-factor authentication (MFA) | `03-mfa.md` |
+| 3 | Multi-factor authentication (MFA) | [`03-mfa.md`](03-mfa.md) |
 | 4 | Managing passwords in the real world | `04-managing-passwords.md` |
 | 5 | Authorisation | `05-authorisation.md` |
 | 6 | Active Directory | `06-active-directory.md` |
