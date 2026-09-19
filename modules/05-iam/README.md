@@ -16,7 +16,7 @@ privileged access management.
 | 4 | Managing passwords in the real world | [`04-managing-passwords.md`](04-managing-passwords.md) |
 | 5 | Authorisation | [`05-authorisation.md`](05-authorisation.md) |
 | 6 | Active Directory | [`06-active-directory.md`](06-active-directory.md) |
-| 7 | Privileged Access Management (PAM) | `07-pam.md` |
+| 7 | Privileged Access Management (PAM) | [`07-pam.md`](07-pam.md) |
 
 ## Practical work
 
