@@ -19,7 +19,7 @@ programmes are built and measured, and why they so often fail to change anything
 ## Practical work
 
 - [ ] Knowledge check
-- [ ] Practical assessment: education and awareness
+- [x] Practical assessment: education and awareness — [deliverable](../../deliverables/06-oscorp-phishing-platform.md)
 - [ ] Practical case study: security education and awareness
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.

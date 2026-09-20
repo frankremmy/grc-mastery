@@ -35,6 +35,14 @@ Transcripts, if generated for study, stay local and gitignored (`transcripts/`,
   is worth less than one showing where I disagreed with them.
 - Update the progress table in the root README when a module closes out.
 
+## Source documents
+
+Case studies are built on real published documents. Those are **linked, not
+copied** into this repo — publicly available is not the same as free to
+redistribute, and these belong to the organisations that wrote them. The one
+exception is `reference/`, which holds NIST publications: US government work, and
+public domain.
+
 ## Risk registers
 
 Registers are CSV, not markdown tables. GitHub renders CSV as a table anyway, so

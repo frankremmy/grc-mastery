@@ -2,8 +2,10 @@
 
 **Module:** 03 — Cyber Security Audit
 **Type:** Practical case study
-**Source:** Foresight Group Holdings Limited, Annual Report and Financial
-Statements FY24 (public document) — risk section excerpt.
+**Source:** Foresight Group Holdings Limited, *Annual Report and Financial
+Statements FY24*, risk section — published by the company at
+<https://www.foresight.group/>. Linked rather than copied here: publicly
+available, but Foresight's document to redistribute, not mine.
 **Status:** Study notes on the report. Answers to follow.
 
 ---

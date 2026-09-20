@@ -11,7 +11,8 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Three lines of defence case study](03-3lod-case-study.md) | 03 | Analysis | Study notes — answers pending |
 | [Asset management assessment](04-oscorp-asset-management.md) | 04 | Process design | Draft — pre-solution |
 | [IAM assessment](05-oscorp-iam-assessment.md) | 05 | Access review | Draft — pre-solution |
-| Education and awareness program | 06 | Program design | Not started |
+| [Phishing platform evaluation](06-oscorp-phishing-platform.md) | 06 | Advisory | Draft — pre-solution |
+| [Awareness program case study](06-awareness-case-study.md) | 06 | Analysis | Study notes — answers pending |
 | DLP assessment | 07 | Control design | Not started |
 | Incident response plan | 08 | Plan | Not started |
 | TPRM assessment | 09 | Questionnaire | Not started |
