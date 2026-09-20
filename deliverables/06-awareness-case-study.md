@@ -7,7 +7,7 @@
 <https://intranet.kwc.edu/_uploads/sites/3/PLAN01-Awareness-Program-Plan.pdf>.
 Linked rather than copied here: publicly available, but KWC's document to
 redistribute, not mine.
-**Status:** Study notes on the plan. Assessment answers to follow.
+**Status:** Complete — plan analysis plus my answers to the case study questions.
 
 ---
 
@@ -204,3 +204,36 @@ Points that look likely to matter when the questions arrive.
   checking whether either has been superseded before relying on the mapping.
 - No mention of what happens to the reporting channel: the plan counts reports but
   never describes how someone reports, or what response they get.
+
+---
+
+## Case study answers
+
+Questions paraphrased; the source for each is the KWC Security Awareness Program
+Plan.
+
+| Topic | My answer | Basis in the plan |
+| --- | --- | --- |
+| The programme's foundation | **NIST SP 800-16 and SP 800-50** | Named in the Overview and again in References |
+| Who implements and maintains the programme | **Director of Information Technology** | Program Roles and Responsibilities; also the document owner |
+| New hire completion window | **30 days** | Awareness and Training Strategy |
+| Not a component of the training strategy | **Robotics security** | The best-practice list covers passwords, email, web browsing, mobile, social media, wireless, antivirus, social engineering and physical security |
+| The phishing awareness metric | **Number of users reporting phishing attacks** | Training Metrics |
+| Consequence of missing the two-week extension | **Manager notified, and access may be restricted** | Non-Compliance, steps two and three |
+| Phishing test frequency | **Bi-weekly** | Testing Plan |
+| Delivery method not mentioned | **Podcasts** | The plan lists instructor-led, computer-based with quizzes and videos, social engineering, and on-site table events |
+
+### Two observations
+
+**The metric question is the interesting one.** Three of the four options sound
+like plausible awareness metrics and only one appears in the plan — and it's
+**report rate**, which measures a capability being built rather than a failure
+being counted. That the plan names it, and that the question singles it out, is a
+better signal about what good looks like than the volume of material on click
+rates.
+
+**Two of the eight questions ask what *isn't* in the document.** That format
+rewards having read the plan rather than knowing the subject, and both distractors
+are modern-sounding and absent. Worth noting as a reading discipline: an assessment
+answer should describe what a document says, not what a well-designed document of
+that type would usually say.

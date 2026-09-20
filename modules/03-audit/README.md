@@ -1,6 +1,6 @@
 # Cyber Security Audit
 
-> Module notes from GRC Mastery. Status: **in progress**
+> Module notes from GRC Mastery. Status: **complete**
 
 What audit is and what it's for, the three lines of defence model, how audit
 actually runs in practice, and where the current approach falls short.
@@ -16,9 +16,9 @@ actually runs in practice, and where the current approach falls short.
 
 ## Practical work
 
-- [ ] Knowledge check
+- [x] Knowledge check
 - [x] Practical assessment: audit program — [deliverable](../../deliverables/03-oscorp-audit-program.md)
-- [ ] Practical case study: three lines of defence
+- [x] Practical case study: three lines of defence — [deliverable](../../deliverables/03-3lod-case-study.md)
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 

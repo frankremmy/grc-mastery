@@ -1,6 +1,6 @@
 # Security Education and Awareness
 
-> Module notes from GRC Mastery. Status: **in progress**
+> Module notes from GRC Mastery. Status: **complete**
 
 Educating people about security — phishing and social engineering, how awareness
 programmes are built and measured, and why they so often fail to change anything.
@@ -18,9 +18,9 @@ programmes are built and measured, and why they so often fail to change anything
 
 ## Practical work
 
-- [ ] Knowledge check
+- [x] Knowledge check
 - [x] Practical assessment: education and awareness — [deliverable](../../deliverables/06-oscorp-phishing-platform.md)
-- [ ] Practical case study: security education and awareness
+- [x] Practical case study: security education and awareness — [deliverable](../../deliverables/06-awareness-case-study.md)
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 

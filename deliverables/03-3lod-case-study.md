@@ -6,7 +6,7 @@
 Statements FY24*, risk section — published by the company at
 <https://www.foresight.group/>. Linked rather than copied here: publicly
 available, but Foresight's document to redistribute, not mine.
-**Status:** Study notes on the report. Answers to follow.
+**Status:** Complete — report analysis plus my answers to the case study questions.
 
 ---
 
@@ -227,3 +227,41 @@ disaster recovery planning.
 8. The four causes and five listed controls for the cyber principal risk.
 9. That the Board is accountable but **delegates** risk management to the Executive
    Committee.
+
+---
+
+## Case study answers
+
+Questions paraphrased; the source for each is the Foresight FY24 risk disclosure.
+
+| Topic | My answer | Basis in the report |
+| --- | --- | --- |
+| Which line manages inherent risks day to day | **First line** | Risks are managed day-to-day within the businesses; inherent risks identified and assessed by "First Line" resources |
+| Who oversees overall adequacy and effectiveness of the Group-wide risk framework | **Board of Directors** | Board is accountable for the framework and risk culture — see the note below |
+| Which function gives independent assurance on framework effectiveness | **Third line** | Third line: verification of the adequacy of the Group Risk Framework |
+| A second line responsibility | **Implementing risk reporting and escalation** | 2LOD prepares risk reporting and manages risk events — recording, escalation, reporting |
+| The first line's role | **Day-to-day risk management and adherence to controls** | Primary responsibility for the control environment and adherence to risk policies |
+| Who inputs into risk identification and scoring run by the Risk function | **First line — businesses and functions** | Stated verbatim in the 1LOD responsibilities |
+| Which line verifies framework adequacy through external oversight | **Third line** | Foresight's third line is labelled "External oversight/assurance" |
+| A key focus of Foresight's cyber risk management | **Encryption and data protection measures** | Listed among the controls for the cyber principal risk |
+| How cyber defences are tested | **Simulated cyber-attacks — penetration testing** | The Technology and Data team tests defences regularly through simulated attacks |
+| The major third-party risk | **Compromised cyber security leading to a breach of Foresight's systems** | Explicit concern that attackers might enter through a compromised third party |
+| How third-party cyber risk is addressed | **A detailed IT security assessment within due diligence** | Its outcome feeds the Third-Party Risk Assessment and the decision to proceed or retain |
+| The technology increasing cyber risk complexity | **AI tools improving phishing quality** | AI has made phishing harder to recognise |
+| The Board delegates risk management to | **The Executive Committee** | Stated directly in the Board's responsibilities |
+
+### A note on one answer
+
+The question about who oversees the overall adequacy and effectiveness of the
+Group-wide risk framework is ambiguous in the source. The report says the **Board**
+is *accountable* for it, and three boxes later that the **Executive Committee** is
+*responsible* for it — the same phrase attached to two bodies.
+
+I answered Board, because the question asks who oversees and because the
+delegation to the Executive Committee is tested separately. If the marking scheme
+says Executive Committee, the report's wording is why.
+
+The distinction underneath is worth more than the answer: **accountability can be
+delegated in its execution and not in its consequence.** The Board remains
+answerable for the framework regardless of who runs it day to day — which is the
+same principle that makes a named risk owner meaningful on a register.

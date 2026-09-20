@@ -1,15 +1,16 @@
 # Cyber Security Detection and Incident Response
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Seeing attacks and dealing with them — monitoring and SIEM, using an MSSP,
+incident response, MITRE ATT&CK, and testing the plan through cyber drills.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | Detection and monitoring | `01-detection-and-monitoring.md` |
-| 2 | Security information and event management (SIEM) | `02-siem.md` |
+| 1 | Detection and monitoring | [`01-detection-and-monitoring.md`](01-detection-and-monitoring.md) |
+| 2 | Security information and event management (SIEM) | [`02-siem.md`](02-siem.md) |
 | 3 | Managed security service provider (MSSP) | `03-mssp.md` |
 | 4 | Cyber security incident response | `04-incident-response.md` |
 | 5 | The MITRE ATT&CK framework | `05-mitre-attack.md` |
