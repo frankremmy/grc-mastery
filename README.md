@@ -21,7 +21,7 @@ the artefacts.
 | 04 | [Asset Management](modules/04-asset-management/) | ☑ | ☑ | — |
 | 05 | [Identity and Access Management](modules/05-iam/) | ☑ | ☑ | — |
 | 06 | [Security Education and Awareness](modules/06-security-awareness/) | ☑ | ☑ | ☐ |
-| 07 | [Data Security and DLP](modules/07-data-security-dlp/) | ☐ | ☐ | — |
+| 07 | [Data Security and DLP](modules/07-data-security-dlp/) | ◐ | ☐ | — |
 | 08 | [Detection and Incident Response](modules/08-detection-incident-response/) | ☐ | ☐ | ☐ |
 | 09 | [Third-Party Risk Management](modules/09-tprm/) | ☐ | ☐ | — |
 | 10 | [Pentest and Vulnerability Management](modules/10-pentest-vuln-management/) | ☐ | ☐ | — |
