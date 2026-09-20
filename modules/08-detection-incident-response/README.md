@@ -11,7 +11,7 @@ incident response, MITRE ATT&CK, and testing the plan through cyber drills.
 | --- | --- | --- |
 | 1 | Detection and monitoring | [`01-detection-and-monitoring.md`](01-detection-and-monitoring.md) |
 | 2 | Security information and event management (SIEM) | [`02-siem.md`](02-siem.md) |
-| 3 | Managed security service provider (MSSP) | `03-mssp.md` |
+| 3 | Managed security service provider (MSSP) | [`03-mssp.md`](03-mssp.md) |
 | 4 | Cyber security incident response | `04-incident-response.md` |
 | 5 | The MITRE ATT&CK framework | `05-mitre-attack.md` |
 | 6 | Cyber drills and crisis simulation | `06-cyber-drills.md` |
