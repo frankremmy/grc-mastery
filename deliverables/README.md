@@ -14,7 +14,7 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Phishing platform evaluation](06-oscorp-phishing-platform.md) | 06 | Advisory | Draft — pre-solution |
 | [Awareness program case study](06-awareness-case-study.md) | 06 | Analysis | Complete |
 | [Insider threat program](07-oscorp-insider-threat-program.md) | 07 | Program design | Draft — pre-solution |
-| Incident response plan | 08 | Plan | Not started |
+| [Incident response plan](08-oscorp-incident-response-plan.md) | 08 | Plan | Draft — pre-solution |
 | TPRM assessment | 09 | Questionnaire | Not started |
 | Vulnerability management assessment | 10 | Process design | Not started |
 | FAIR quantification | 11 | Model | Not started |
