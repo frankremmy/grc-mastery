@@ -1,19 +1,21 @@
 # Third-Party Risk Management (TPRM)
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Managing the cyber security risk that comes from suppliers, vendors and service
+providers — finding out who they are, working out which ones matter, assessing
+them, and living with the fact that you can't control any of it directly.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | What is third-party risk management? | `01-what-is-tprm.md` |
-| 2 | The supplier discovery process | `02-supplier-discovery.md` |
-| 3 | Supplier classification | `03-supplier-classification.md` |
-| 4 | The supplier assessment process | `04-supplier-assessment-process.md` |
-| 5 | The supplier assessment questionnaire | `05-assessment-questionnaire.md` |
-| 6 | Issues with TPRM in the real world | `06-issues-in-the-real-world.md` |
+| 1 | What is third-party risk management? | [`01-what-is-tprm.md`](01-what-is-tprm.md) |
+| 2 | The supplier discovery process | [`02-supplier-discovery.md`](02-supplier-discovery.md) |
+| 3 | Supplier classification | [`03-supplier-classification.md`](03-supplier-classification.md) |
+| 4 | The supplier assessment process | [`04-supplier-assessment-process.md`](04-supplier-assessment-process.md) |
+| 5 | The supplier assessment questionnaire | [`05-assessment-questionnaire.md`](05-assessment-questionnaire.md) |
+| 6 | Issues with TPRM in the real world | [`06-issues-in-the-real-world.md`](06-issues-in-the-real-world.md) |
 
 ## Practical work
 
