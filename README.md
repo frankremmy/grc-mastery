@@ -24,8 +24,8 @@ the artefacts.
 | 07 | [Data Security and DLP](modules/07-data-security-dlp/) | ☑ | ☑ | — |
 | 08 | [Detection and Incident Response](modules/08-detection-incident-response/) | ☑ | ☑ | ☐ |
 | 09 | [Third-Party Risk Management](modules/09-tprm/) | ☑ | ☑ | — |
-| 10 | [Pentest and Vulnerability Management](modules/10-pentest-vuln-management/) | ☑ | ☐ | — |
-| 11 | [Cyber Risk Quantification](modules/11-risk-quantification/) | ☐ | ☐ | — |
+| 10 | [Pentest and Vulnerability Management](modules/10-pentest-vuln-management/) | ☑ | ☑ | — |
+| 11 | [Cyber Risk Quantification](modules/11-risk-quantification/) | ◐ | ☐ | — |
 | 12 | [ISO 27001 Lead Auditor](modules/12-iso27001-lead-auditor/) | ☐ | ☐ | ☐ |
 | — | [Capstone: NIST CSF Program](capstone-nist-program/) | ☐ | ☐ | — |
 

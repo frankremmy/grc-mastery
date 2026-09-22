@@ -16,7 +16,7 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Insider threat program](07-oscorp-insider-threat-program.md) | 07 | Program design | Draft — pre-solution |
 | [Incident response plan](08-oscorp-incident-response-plan.md) | 08 | Plan | Draft — pre-solution |
 | [TPRM supplier assessment](09-horizon-labs-assessment.md) | 09 | Supplier review | Complete |
-| Vulnerability management assessment | 10 | Process design | Not started |
+| [Vulnerability management recommendations](10-oscorp-vulnerability-management.md) | 10 | Advisory | Draft — pre-solution |
 | FAIR quantification | 11 | Model | Not started |
 | NIST CSF program | Capstone | Program | Not started |
 | ISO 27001 audit | ISO | Audit report | Not started |

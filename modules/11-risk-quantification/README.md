@@ -1,16 +1,18 @@
 # Cyber Risk Quantification
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+Putting a monetary value on cyber risk instead of a colour — why ordinal ratings
+lose information that matters, how the FAIR model structures the estimate, and
+where quantification goes wrong in practice.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | What is cyber risk quantification? | `01-what-is-risk-quantification.md` |
-| 2 | The FAIR Institute | `02-the-fair-institute.md` |
-| 3 | The FAIR model breakdown | `03-fair-model-breakdown.md` |
+| 1 | What is cyber risk quantification? | [`01-what-is-risk-quantification.md`](01-what-is-risk-quantification.md) |
+| 2 | The FAIR Institute | [`02-the-fair-institute.md`](02-the-fair-institute.md) |
+| 3 | The FAIR model breakdown | [`03-fair-model-breakdown.md`](03-fair-model-breakdown.md) |
 | 4 | Practical example | `04-practical-example.md` |
 | 5 | Common mistakes with cyber risk quantification | `05-common-mistakes.md` |
 
