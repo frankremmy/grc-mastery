@@ -15,7 +15,7 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Awareness program case study](06-awareness-case-study.md) | 06 | Analysis | Complete |
 | [Insider threat program](07-oscorp-insider-threat-program.md) | 07 | Program design | Draft — pre-solution |
 | [Incident response plan](08-oscorp-incident-response-plan.md) | 08 | Plan | Draft — pre-solution |
-| TPRM assessment | 09 | Questionnaire | Not started |
+| [TPRM supplier assessment](09-horizon-labs-assessment.md) | 09 | Supplier review | Complete |
 | Vulnerability management assessment | 10 | Process design | Not started |
 | FAIR quantification | 11 | Model | Not started |
 | NIST CSF program | Capstone | Program | Not started |
