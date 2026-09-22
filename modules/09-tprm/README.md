@@ -19,7 +19,7 @@ them, and living with the fact that you can't control any of it directly.
 
 ## Practical work
 
-- [ ] Knowledge check
+- [x] Knowledge check
 - [x] Practical assessment: TPRM — [deliverable](../../deliverables/09-horizon-labs-assessment.md)
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
