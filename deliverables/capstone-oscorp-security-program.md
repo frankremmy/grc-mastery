@@ -273,3 +273,121 @@ response plan, the Horizon Labs supplier assessment, and the quantified case for
 the awareness programme. A real consultant with prior engagements at the client
 would do the same, and it makes the roadmap concrete where it would otherwise be
 generic.
+
+---
+
+## 6. Comparison with the course solution
+
+### Scores
+
+| Function | My assessment | Course solution |
+| --- | --- | --- |
+| Identify | 2 pass / 22 fail | 4 pass / 2 N-A / 18 fail |
+| Protect | 9 pass / 4 N-A / 22 fail | 12 pass / 4 N-A / 19 fail |
+| Detect | 3 pass / 15 fail | 4 pass / 14 fail |
+| Respond | 0 pass / 15 fail | 0 pass / 15 fail |
+| Recover | 2 pass / 4 fail | **6 pass / 0 fail** |
+| **Total** | **16 pass / 4 N-A / 78 fail** | **26 pass / 6 N-A / 66 fail** |
+
+Respond matched exactly. Every control I passed, the solution also passed or
+marked not applicable — I never passed something it failed. **The entire
+divergence is in one direction: I failed twelve controls the solution passed.**
+
+### The systematic difference
+
+One decision explains all twelve. **The solution assesses against the control
+description and records shortfalls in the Comments column. I assessed against the
+question, and failed a control if any sub-part of the question was unmet.**
+
+The clearest example is Identify row 2, physical device inventory. The control
+description says devices are inventoried. Oscorp has a laptop spreadsheet, so the
+solution marks Pass and comments "CMDB needs periodic reviews". I failed it,
+because the question also asks about periodic review and the spreadsheet covers
+only laptops.
+
+Both readings are defensible and the solution's is the more useful one. A control
+set where an imperfect control fails outright produces an assessment that is all
+red, which tells a reader nothing about where the organisation is closer or
+further from good. Recording partial implementation as a pass with a documented
+shortfall preserves that information — and the shortfall still becomes a
+recommendation. **I would adopt this approach.**
+
+### Where I was harsher, and whether I was right
+
+| Control | Solution | Me | My read now |
+| --- | --- | --- | --- |
+| ID.AM-1 physical devices inventoried | Pass | Fail | Solution right — an inventory exists; the review gap belongs in Comments |
+| ID.BE-5 resilience requirements | Pass | Fail | Solution right — internal resilience is genuinely strong; supplier due diligence is captured elsewhere |
+| PR.AT-5 security personnel understand roles | Pass | Fail | Solution right for physical security staff |
+| PR.IP-11 cyber in HR practices | Pass | Fail | Solution right — extensive vetting is explicitly stated; I failed on an unevidenced sub-part |
+| DE.CM-8 vulnerability scans performed | Pass | Fail | Solution right — scans *are* performed. I imported "regular" from the question into a control that doesn't say it |
+| RC.* four Recover controls | Pass | Fail | **Mostly solution's call.** Documented, regularly tested DR plans reasonably imply the surrounding process. My rule that silence fails was applied too mechanically to a control area the notes describe as mature |
+| PR.AT-1 all users informed and trained | Pass | Fail | **I would keep my Fail.** See below |
+| ID.BE-2 / ID.RM-3 critical infrastructure | N/A | Fail | **Defensible disagreement.** See below |
+
+### Two I would defend
+
+**Awareness training (PR.AT-1).** The solution passes it, commenting that training
+should happen at least every 12 months. Oscorp's entire programme is one induction
+module. Module 6 of this same course argued at length that onboarding-only
+training is inadequate and that awareness must be continuous — so passing it here
+sits uneasily with the course's own teaching. "All users are informed and trained"
+in the present tense implies an ongoing state, not a one-off event at hire.
+
+**Critical infrastructure (ID.BE-2, ID.RM-3).** The solution marks these Not
+Applicable because Oscorp is not critical infrastructure. That is a jurisdictional
+assertion rather than a fact. Under NIS2, Annex I covers the health sector and the
+manufacture of pharmaceutical products; Australia's SOCI Act likewise names
+healthcare and medical as a critical infrastructure sector. For a bioengineering
+firm with a marketed medicine, "not critical infrastructure" is a conclusion that
+needs checking, not assuming. My Fail was on the basis that **Oscorp has not
+determined its status** — which is the control's actual requirement — rather than
+on the basis that it is in scope.
+
+### Recommendations — what each of us had
+
+The solution's recommendations and mine agree on the substance: security
+governance and a named owner, asset identification and classification, TPRM, a
+cyber risk process, MFA as a priority, least privilege and access reviews,
+eliminating shared admin credentials, annual awareness training with phishing
+simulation, data discovery and classification with labelling and DLP, and SIEM
+with an enterprise incident response plan.
+
+**Three things the solution has that I missed or under-weighted:**
+
+- **An internal audit programme with cyber in scope.** I recommended board
+  reporting but not third-line assurance. Given module 3's three lines work, this
+  is the clearest gap in my answer
+- **Plugging cyber risk into the existing audit and risk committee and risk team**
+  explicitly, rather than building a parallel process. I said this in the
+  governance section but did not make it a recommendation in its own right
+- **Scenario playbooks alongside the enterprise IR plan.** I had the enterprise
+  plan in year 1 and left the playbooks implicit
+
+**What my answer had that the solution does not:**
+
+- **A three-year sequenced roadmap.** The brief asked for one; the solution gives
+  a prioritised list of recommendation areas without phasing them across years or
+  stating dependencies. Sequencing is the part that turns findings into a
+  programme
+- **The reporting line as a finding.** Security reporting into the IT manager is a
+  first-and-second-line collapse, and it is the structural cause of several
+  governance failures
+- **Regulatory applicability determination** as an explicit early task
+- **Vulnerability management SLAs and a backlog burn-down**, PAM with just-in-time
+  access, an IR retainer, penetration testing, detection testing, metrics, and
+  exit criteria per year
+
+### What I take from this
+
+The scoring lesson is the valuable one, and it is a method correction rather than
+a knowledge gap: **assess against the control, record the shortfall in the
+comment.** Failing everything imperfect makes an assessment louder and less
+useful, and it costs the reader the ability to see where an organisation is nearly
+there. The one place I would hold my position is where the notes show no process
+at all behind an artefact — but "no process" and "imperfect process" are different
+findings, and only the first is a fail.
+
+On the recommendations, the substance held up and the structure was stronger than
+the solution's. The internal audit gap is a real miss and one I should have caught,
+having written an audit programme for this same client two modules ago.

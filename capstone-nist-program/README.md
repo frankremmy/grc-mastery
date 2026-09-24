@@ -1,6 +1,6 @@
 # Capstone: Cyber Security Program using the NIST CSF
 
-> Status: **in progress**
+> Status: **complete**
 
 Designing a full security program for Oscorp against the five NIST CSF functions,
 then comparing my pass against the course's solution and recording where they
@@ -29,7 +29,7 @@ from module 2 onwards builds on it.
 
 - [x] Problem description read
 - [x] My own program design pushed **before** watching the full solution
-- [ ] Comparison against the course solution
+- [x] Comparison against the course solution
 
 ## Final solution document
 
