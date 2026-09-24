@@ -17,6 +17,7 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Incident response plan](08-oscorp-incident-response-plan.md) | 08 | Plan | Draft — pre-solution |
 | [TPRM supplier assessment](09-horizon-labs-assessment.md) | 09 | Supplier review | Complete |
 | [Vulnerability management recommendations](10-oscorp-vulnerability-management.md) | 10 | Advisory | Draft — pre-solution |
-| FAIR quantification | 11 | Model | Not started |
+| [FAIR calculator](11-fair-calculator.xlsx) | 11 | Model | Complete |
+| [Oscorp phishing quantification](11-oscorp-phishing-quantification.md) | 11 | Analysis | Complete |
 | NIST CSF program | Capstone | Program | Not started |
 | ISO 27001 audit | ISO | Audit report | Not started |
