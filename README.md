@@ -27,7 +27,7 @@ the artefacts.
 | 10 | [Pentest and Vulnerability Management](modules/10-pentest-vuln-management/) | ☑ | ☑ | — |
 | 11 | [Cyber Risk Quantification](modules/11-risk-quantification/) | ☑ | ☑ | — |
 | 12 | [ISO 27001 Lead Auditor](modules/12-iso27001-lead-auditor/) | ☐ | ☐ | ☐ |
-| — | [Capstone: NIST CSF Program](capstone-nist-program/) | ☐ | ☐ | — |
+| — | [Capstone: NIST CSF Program](capstone-nist-program/) | ◐ | ☑ | — |
 
 ☑ complete · ◐ in progress · ☐ not started · — not applicable
 

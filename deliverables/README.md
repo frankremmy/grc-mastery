@@ -19,5 +19,6 @@ worth showing a hiring manager. Each file is named `<module>-<artefact>.<ext>`.
 | [Vulnerability management recommendations](10-oscorp-vulnerability-management.md) | 10 | Advisory | Draft — pre-solution |
 | [FAIR calculator](11-fair-calculator.xlsx) | 11 | Model | Complete |
 | [Oscorp phishing quantification](11-oscorp-phishing-quantification.md) | 11 | Analysis | Complete |
-| NIST CSF program | Capstone | Program | Not started |
+| [NIST CSF assessment](capstone-oscorp-nist-assessment.xlsx) | Capstone | Assessment | Complete |
+| [Security programme and 3-year roadmap](capstone-oscorp-security-program.md) | Capstone | Programme | Complete |
 | ISO 27001 audit | ISO | Audit report | Not started |

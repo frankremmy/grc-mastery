@@ -1,6 +1,6 @@
 # Capstone: Cyber Security Program using the NIST CSF
 
-> Status: **not started**
+> Status: **in progress**
 
 Designing a full security program for Oscorp against the five NIST CSF functions,
 then comparing my pass against the course's solution and recording where they
@@ -10,7 +10,7 @@ differ.
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | Designing a comprehensive cyber security program | `01-designing-the-program.md` |
+| 1 | Designing a comprehensive cyber security program | [`01-designing-the-program.md`](01-designing-the-program.md) |
 | 2 | Identify | `02-identify.md` |
 | 3 | Protect | `03-protect.md` |
 | 4 | Detect | `04-detect.md` |
@@ -27,10 +27,10 @@ from module 2 onwards builds on it.
 
 ## Practical work
 
-- [ ] Problem description read
-- [ ] My own program design pushed **before** watching the full solution
+- [x] Problem description read
+- [x] My own program design pushed **before** watching the full solution
 - [ ] Comparison against the course solution
 
 ## Final solution document
 
-_Link to the deliverable._
+[NIST CSF assessment](../deliverables/capstone-oscorp-nist-assessment.xlsx) · [Security programme and 3-year roadmap](../deliverables/capstone-oscorp-security-program.md)
