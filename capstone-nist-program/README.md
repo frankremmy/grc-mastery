@@ -16,8 +16,8 @@ differ.
 | 4 | Detect | [`04-detect.md`](04-detect.md) |
 | 5 | Respond | [`05-respond.md`](05-respond.md) |
 | 6 | Recover | [`06-recover.md`](06-recover.md) |
-| 7 | Final solution document walkthrough | `07-solution-walkthrough.md` |
-| 8 | Common mistakes with NIST assessments | `08-common-mistakes.md` |
+| 7 | Final solution document walkthrough | [`07-solution-walkthrough.md`](07-solution-walkthrough.md) |
+| 8 | Common mistakes with NIST assessments | [`08-common-mistakes.md`](08-common-mistakes.md) |
 
 ## Oscorp profile
 

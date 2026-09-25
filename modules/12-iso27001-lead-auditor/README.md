@@ -1,17 +1,19 @@
 # ISO 27001 Lead Auditor
 
-> Module notes from GRC Mastery. Status: **not started**
+> Module notes from GRC Mastery. Status: **in progress**
 
-_One paragraph, in my own words, on what this module covers and why it matters._
+ISO 27001 end to end, taught as an implementation rather than a lecture — the
+clauses, the Annex A controls, the documentation an ISMS actually needs, and how
+a certification audit is conducted.
 
 ## Lessons
 
 | # | Lesson | Notes |
 | --- | --- | --- |
-| 1 | Introduction to ISO 27001 lead auditor training | `01-introduction.md` |
-| 2 | What is ISO 27001 and the ISMS? | `02-what-is-iso27001-and-the-isms.md` |
-| 3 | The CIA triad | `03-the-cia-triad.md` |
-| 4 | ISO 27001 clauses | `04-iso27001-clauses.md` |
+| 1 | Introduction to ISO 27001 lead auditor training | [`01-introduction.md`](01-introduction.md) |
+| 2 | What is ISO 27001 and the ISMS? | [`02-what-is-iso27001-and-the-isms.md`](02-what-is-iso27001-and-the-isms.md) |
+| 3 | The CIA triad | [`03-the-cia-triad.md`](03-the-cia-triad.md) |
+| 4 | ISO 27001 clauses | [`04-iso27001-clauses.md`](04-iso27001-clauses.md) |
 | 5 | Normative vs informative criteria | `05-normative-vs-informative.md` |
 | 6 | Annex A controls | `06-annex-a-controls.md` |
 | 7 | ISO 27001 vs 27002 vs 27003 vs Annex A | `07-iso27001-vs-27002-vs-27003.md` |
