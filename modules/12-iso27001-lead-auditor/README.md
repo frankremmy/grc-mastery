@@ -14,11 +14,11 @@ a certification audit is conducted.
 | 2 | What is ISO 27001 and the ISMS? | [`02-what-is-iso27001-and-the-isms.md`](02-what-is-iso27001-and-the-isms.md) |
 | 3 | The CIA triad | [`03-the-cia-triad.md`](03-the-cia-triad.md) |
 | 4 | ISO 27001 clauses | [`04-iso27001-clauses.md`](04-iso27001-clauses.md) |
-| 5 | Normative vs informative criteria | `05-normative-vs-informative.md` |
-| 6 | Annex A controls | `06-annex-a-controls.md` |
-| 7 | ISO 27001 vs 27002 vs 27003 vs Annex A | `07-iso27001-vs-27002-vs-27003.md` |
-| 8 | Assessment worksheet walkthrough | `08-assessment-worksheet-walkthrough.md` |
-| 9 | Guided project: achieving ISO 27001 certification | `09-guided-project-certification.md` |
+| 5 | Normative vs informative criteria | [`05-normative-vs-informative.md`](05-normative-vs-informative.md) |
+| 6 | Annex A controls | [`06-annex-a-controls.md`](06-annex-a-controls.md) |
+| 7 | ISO 27001 vs 27002 vs 27003 vs Annex A | [`07-iso27001-vs-27002-vs-27003.md`](07-iso27001-vs-27002-vs-27003.md) |
+| 8 | Assessment worksheet walkthrough | [`08-assessment-worksheet-walkthrough.md`](08-assessment-worksheet-walkthrough.md) |
+| 9 | Guided project: achieving ISO 27001 certification | [`09-guided-project-certification.md`](09-guided-project-certification.md) |
 | 10 | Clause 4 — context of the organisation | `10-clause-4.md` |
 | 11 | Clause 5 — leadership | `11-clause-5.md` |
 | 12 | Clause 6 — planning | `12-clause-6.md` |
@@ -31,9 +31,14 @@ a certification audit is conducted.
 | 19 | Conducting an ISO 27001 audit | `19-conducting-an-audit.md` |
 | 20 | Benefits and criticism of ISO 27001 certification | `20-benefits-and-criticism.md` |
 
+## Case study
+
+The guided project organisation is profiled in
+[`stark-industries-profile.md`](stark-industries-profile.md).
+
 ## Practical work
 
-- [ ] Practical assessment: interpret ISO 27001 certification
+- [x] Practical assessment: interpret ISO 27001 certification
 - [ ] Practical assessment: ISO 27001 audit
 - [ ] Final exam: ISO 27001 lead auditor
 
