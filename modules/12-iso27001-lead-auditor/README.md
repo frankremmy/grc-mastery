@@ -19,9 +19,9 @@ a certification audit is conducted.
 | 7 | ISO 27001 vs 27002 vs 27003 vs Annex A | [`07-iso27001-vs-27002-vs-27003.md`](07-iso27001-vs-27002-vs-27003.md) |
 | 8 | Assessment worksheet walkthrough | [`08-assessment-worksheet-walkthrough.md`](08-assessment-worksheet-walkthrough.md) |
 | 9 | Guided project: achieving ISO 27001 certification | [`09-guided-project-certification.md`](09-guided-project-certification.md) |
-| 10 | Clause 4 — context of the organisation | `10-clause-4.md` |
-| 11 | Clause 5 — leadership | `11-clause-5.md` |
-| 12 | Clause 6 — planning | `12-clause-6.md` |
+| 10 | Clause 4 — context of the organisation | [`10-clause-4.md`](10-clause-4.md) |
+| 11 | Clause 5 — leadership | [`11-clause-5.md`](11-clause-5.md) |
+| 12 | Clause 6 — planning | [`12-clause-6.md`](12-clause-6.md) |
 | 13 | Clause 7 — support | `13-clause-7.md` |
 | 14 | Clause 8 — operation | `14-clause-8.md` |
 | 15 | Clause 9 — performance evaluation | `15-clause-9.md` |

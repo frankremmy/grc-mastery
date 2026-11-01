@@ -9,6 +9,14 @@
 - `templates/` — reusable blanks: risk register, audit program, TPRM
   questionnaire, asset register, lesson notes, module README, blog post.
 - `capstone-nist-program/` — the NIST CSF capstone.
+- Client profiles live beside the work that uses them:
+  `capstone-nist-program/oscorp-profile.md` and
+  `modules/12-iso27001-lead-auditor/stark-industries-profile.md`.
+
+The root README is a portfolio landing page, not a course log. When a deliverable
+lands, add it to the case-study table for its client there and in
+`deliverables/README.md`; promote it to "Start here" only if it's among the
+strongest five.
 
 Notes started out in the module READMEs; they moved to one file per lesson so
 commits stay granular and each lesson maps to one potential post.
@@ -33,7 +41,8 @@ Transcripts, if generated for study, stay local and gitignored (`transcripts/`,
 - Push my own answers to the practical assessments **before** watching the
   solution videos, and say so in the commit. A repo of transcribed model answers
   is worth less than one showing where I disagreed with them.
-- Update the progress table in the root README when a module closes out.
+- Update the progress table in the root README when a module closes out, and
+  the case-study tables when a deliverable lands.
 
 ## Source documents
 
