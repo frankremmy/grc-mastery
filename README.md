@@ -63,8 +63,10 @@ Notes so far cover [scope](modules/12-iso27001-lead-auditor/10-clause-4.md),
 [leadership](modules/12-iso27001-lead-auditor/11-clause-5.md),
 [planning](modules/12-iso27001-lead-auditor/12-clause-6.md),
 [support](modules/12-iso27001-lead-auditor/13-clause-7.md),
-[operation](modules/12-iso27001-lead-auditor/14-clause-8.md) and
-[performance evaluation](modules/12-iso27001-lead-auditor/15-clause-9.md). My own ISMS document
+[operation](modules/12-iso27001-lead-auditor/14-clause-8.md),
+[performance evaluation](modules/12-iso27001-lead-auditor/15-clause-9.md) and
+[improvement](modules/12-iso27001-lead-auditor/16-clause-10.md) — all seven
+mandatory clauses. My own ISMS document
 set will follow in `deliverables/`.
 
 ### Standalone case studies

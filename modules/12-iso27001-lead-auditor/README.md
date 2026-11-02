@@ -25,7 +25,7 @@ a certification audit is conducted.
 | 13 | Clause 7 — support | [`13-clause-7.md`](13-clause-7.md) |
 | 14 | Clause 8 — operation | [`14-clause-8.md`](14-clause-8.md) |
 | 15 | Clause 9 — performance evaluation | [`15-clause-9.md`](15-clause-9.md) |
-| 16 | Clause 10 — improvement | `16-clause-10.md` |
+| 16 | Clause 10 — improvement | [`16-clause-10.md`](16-clause-10.md) |
 | 17 | ISO 31000 risk management and ISO 19011:2018 audit guidelines | `17-iso31000-and-iso19011.md` |
 | 18 | Different types of ISO 27001 auditors | `18-types-of-auditors.md` |
 | 19 | Conducting an ISO 27001 audit | `19-conducting-an-audit.md` |
