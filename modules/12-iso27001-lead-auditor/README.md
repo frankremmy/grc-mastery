@@ -22,7 +22,7 @@ a certification audit is conducted.
 | 10 | Clause 4 — context of the organisation | [`10-clause-4.md`](10-clause-4.md) |
 | 11 | Clause 5 — leadership | [`11-clause-5.md`](11-clause-5.md) |
 | 12 | Clause 6 — planning | [`12-clause-6.md`](12-clause-6.md) |
-| 13 | Clause 7 — support | `13-clause-7.md` |
+| 13 | Clause 7 — support | [`13-clause-7.md`](13-clause-7.md) |
 | 14 | Clause 8 — operation | `14-clause-8.md` |
 | 15 | Clause 9 — performance evaluation | `15-clause-9.md` |
 | 16 | Clause 10 — improvement | `16-clause-10.md` |

@@ -288,11 +288,14 @@ to rebuild the heat map from the score formula, or drop it and use the bands onl
 
 **The asset register doesn't match the organisation it describes.** The developer
 laptop is owned by James Rhodes — the Information Security Analyst — rather than
-Natalia Romanoff, the developer. The data asset is owned by "Abed Hamdan", who
-doesn't appear anywhere in the Stark brief. And the laptop's location is "Austin
+Natalia Romanoff, the developer. The data asset is owned by "Abed Hamdan" — who turns
+out, in the clause 7 competence record, to be the GRC Analyst. So the name isn't
+missing from the organisation, but the GRC analyst is the wrong *kind* of owner:
+an asset owner should be the person accountable for the asset in the business,
+and the person running the ISMS shouldn't also own the data it assesses. And the laptop's location is "Austin
 HQ" for a company described as based in New York. A.5.9 requires an inventory
-*including owners*; ownership that points at the wrong person or a non-existent
-one is a nonconformity, and it also breaks risk ownership downstream.
+*including owners*; ownership that points at the wrong person is a
+nonconformity, and it also breaks risk ownership downstream.
 
 **Several SoA exclusions contradict the asset register.** These are the ones I'd
 expect an auditor to pick at:
