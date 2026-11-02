@@ -212,7 +212,8 @@ management. The risk register is the source of truth in that conversation.
 - **Physical (A.7)** — **all out**, on the basis that no premises are in scope
 - **Technological (A.8)** — the bulk **in**: endpoints, privileged access, source
   code access, authentication, malware, vulnerabilities, configuration, logging,
-  monitoring, redundancy, networks, cryptography, secure development and coding.
+  monitoring, redundancy, networks, cryptography, secure development, coding and
+  security testing.
   Data masking, DLP, privileged utilities, outsourced development, change
   management and test information **out**
 
@@ -316,9 +317,6 @@ expect an auditor to pick at:
   itself says change goes through change management. R003 is pipeline
   compromise. A SaaS company deploying through CI/CD without change management in
   its ISMS will struggle to defend that
-- **A.8.29 security testing in development** isn't selected, yet the clause 6.2
-  objectives include secure code review and an application penetration test —
-  which are exactly the evidence for 8.29
 - **A.5.34 PII — excluded**, consistent with the brief but resting on the "no
   PII" assumption I flagged at the start of the project and still haven't seen
   tested

@@ -61,8 +61,9 @@ A small New York SaaS company seeking certification for one product. Profile:
 [`stark-industries-profile.md`](modules/12-iso27001-lead-auditor/stark-industries-profile.md).
 Notes so far cover [scope](modules/12-iso27001-lead-auditor/10-clause-4.md),
 [leadership](modules/12-iso27001-lead-auditor/11-clause-5.md),
-[planning](modules/12-iso27001-lead-auditor/12-clause-6.md) and
-[support](modules/12-iso27001-lead-auditor/13-clause-7.md). My own ISMS document
+[planning](modules/12-iso27001-lead-auditor/12-clause-6.md),
+[support](modules/12-iso27001-lead-auditor/13-clause-7.md) and
+[operation](modules/12-iso27001-lead-auditor/14-clause-8.md). My own ISMS document
 set will follow in `deliverables/`.
 
 ### Standalone case studies
