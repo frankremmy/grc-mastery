@@ -37,6 +37,7 @@ a certification audit is conducted.
 | 25 | Initiating the audit | [`25-initiating-the-audit.md`](25-initiating-the-audit.md) |
 | 26 | Preparing for the audit and the audit plan | [`26-preparing-for-the-audit.md`](26-preparing-for-the-audit.md) |
 | 27 | Starting and performing audit activities | [`27-performing-audit-activities.md`](27-performing-audit-activities.md) |
+| 28 | Developing findings and conclusions | [`28-findings-and-conclusions.md`](28-findings-and-conclusions.md) |
 
 ## Case study
 
