@@ -33,6 +33,8 @@ a certification audit is conducted.
 | 21 | Becoming an ISO/IEC 27001 Lead Auditor | [`21-becoming-a-lead-auditor.md`](21-becoming-a-lead-auditor.md) |
 | 22 | Audit principles | [`22-audit-principles.md`](22-audit-principles.md) |
 | 23 | Establishing and managing the audit programme | [`23-audit-programme.md`](23-audit-programme.md) |
+| 24 | Implementing, monitoring and improving the audit programme | [`24-implementing-the-audit-programme.md`](24-implementing-the-audit-programme.md) |
+| 25 | Initiating the audit | [`25-initiating-the-audit.md`](25-initiating-the-audit.md) |
 
 ## Case study
 
