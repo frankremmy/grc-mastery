@@ -35,6 +35,8 @@ a certification audit is conducted.
 | 23 | Establishing and managing the audit programme | [`23-audit-programme.md`](23-audit-programme.md) |
 | 24 | Implementing, monitoring and improving the audit programme | [`24-implementing-the-audit-programme.md`](24-implementing-the-audit-programme.md) |
 | 25 | Initiating the audit | [`25-initiating-the-audit.md`](25-initiating-the-audit.md) |
+| 26 | Preparing for the audit and the audit plan | [`26-preparing-for-the-audit.md`](26-preparing-for-the-audit.md) |
+| 27 | Starting and performing audit activities | [`27-performing-audit-activities.md`](27-performing-audit-activities.md) |
 
 ## Case study
 
