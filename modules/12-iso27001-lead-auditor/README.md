@@ -29,7 +29,10 @@ a certification audit is conducted.
 | 17 | ISO 31000 risk management and ISO 19011:2018 audit guidelines | [`17-iso31000-and-iso19011.md`](17-iso31000-and-iso19011.md) |
 | 18 | Types of ISO 27001 auditors | [`18-types-of-auditors.md`](18-types-of-auditors.md) |
 | 19 | Conducting an ISO 27001 audit | [`19-conducting-an-audit.md`](19-conducting-an-audit.md) |
-| 20 | Benefits and criticism of ISO 27001 certification | `20-benefits-and-criticism.md` |
+| 20 | Benefits and criticism of ISO 27001 certification | [`20-benefits-and-criticism.md`](20-benefits-and-criticism.md) |
+| 21 | Becoming an ISO/IEC 27001 Lead Auditor | [`21-becoming-a-lead-auditor.md`](21-becoming-a-lead-auditor.md) |
+| 22 | Audit principles | [`22-audit-principles.md`](22-audit-principles.md) |
+| 23 | Establishing and managing the audit programme | [`23-audit-programme.md`](23-audit-programme.md) |
 
 ## Case study
 
