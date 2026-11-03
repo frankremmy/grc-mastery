@@ -39,6 +39,7 @@ a certification audit is conducted.
 | 27 | Starting and performing audit activities | [`27-performing-audit-activities.md`](27-performing-audit-activities.md) |
 | 28 | Developing findings and conclusions | [`28-findings-and-conclusions.md`](28-findings-and-conclusions.md) |
 | 29 | Reporting, completion and follow-up | [`29-reporting-completion-follow-up.md`](29-reporting-completion-follow-up.md) |
+| 30 | Audit team members, professional conduct and reflection | [`30-audit-team-and-professional-conduct.md`](30-audit-team-and-professional-conduct.md) |
 
 ## Case study
 
