@@ -29,9 +29,6 @@ a certification audit is conducted.
 | 17 | ISO 31000 risk management and ISO 19011:2018 audit guidelines | [`17-iso31000-and-iso19011.md`](17-iso31000-and-iso19011.md) |
 | 18 | Types of ISO 27001 auditors | [`18-types-of-auditors.md`](18-types-of-auditors.md) |
 | 19 | Conducting an ISO 27001 audit | [`19-conducting-an-audit.md`](19-conducting-an-audit.md) |
-| 18 | Different types of ISO 27001 auditors | `18-types-of-auditors.md` |
-| 19 | Conducting an ISO 27001 audit | [`19-conducting-an-audit.md`](19-conducting-an-audit.md) |
-| 19 | Conducting an ISO 27001 audit | `19-conducting-an-audit.md` |
 | 20 | Benefits and criticism of ISO 27001 certification | `20-benefits-and-criticism.md` |
 
 ## Case study
@@ -42,7 +39,7 @@ The guided project organisation is profiled in
 ## Practical work
 
 - [x] Practical assessment: interpret ISO 27001 certification
-- [ ] Practical assessment: ISO 27001 audit
+- [x] Practical assessment: ISO 27001 audit — [Brunel documentation audit](../../deliverables/12-brunel-iso27001-documentation-audit.md) (10/10)
 - [ ] Final exam: ISO 27001 lead auditor
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.

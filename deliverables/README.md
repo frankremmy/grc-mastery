@@ -46,7 +46,14 @@ ISO 27001 guided project — in progress. Profile:
 | Artefact | Module | Type | Status |
 | --- | --- | --- | --- |
 | ISMS document set — scope, policy, risk register, SoA, policies | 12 | ISMS | Not started |
-| ISO 27001 audit | 12 | Audit report | Not started |
+
+## Brunel University London
+
+Real, public policy set.
+
+| Artefact | Module | Type | Status |
+| --- | --- | --- | --- |
+| [ISO 27001 documentation audit](12-brunel-iso27001-documentation-audit.md) | 12 | Audit | Complete |
 
 ## Standalone case studies
 
