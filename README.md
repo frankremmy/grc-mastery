@@ -16,7 +16,7 @@ Longer write-ups go on [frankremmy.com](https://frankremmy.com).
 
 ## Start here
 
-The five pieces that best show how I work.
+The pieces that best show how I work.
 
 | | Artefact | What it shows |
 | --- | --- | --- |
@@ -24,7 +24,8 @@ The five pieces that best show how I work.
 | 2 | **[Enterprise incident response plan](deliverables/08-oscorp-incident-response-plan.md)** ([Word](deliverables/08-oscorp-incident-response-plan.docx)) | A plan built on ENISA's incident management guide, with NIS2 Article 23 and GDPR notification timelines — rebuilt from an Australian template once I saw the jurisdiction was wrong |
 | 3 | **[FAIR calculator](deliverables/11-fair-calculator.xlsx) and [phishing risk quantification](deliverables/11-oscorp-phishing-quantification.md)** | My own FAIR model, with secondary loss modelled properly and a sensitivity sheet; puts a security investment's break-even at an 18% risk reduction |
 | 4 | **[Third-party supplier assessment](deliverables/09-horizon-labs-assessment.md)** | Reading a SaaS supplier's questionnaire for what it actually evidences, and what the client's own questionnaire forgot to ask |
-| 5 | **[ISO 27001 ISMS build — Stark Industries](modules/12-iso27001-lead-auditor/stark-industries-profile.md)** *(in progress)* | Building an ISMS clause by clause, including the [risk assessment, treatment and SoA work](modules/12-iso27001-lead-auditor/12-clause-6.md) and the inconsistencies between them an auditor would find |
+| 5 | **[Kestrel Pay — securing a payment API's SDLC](case-studies/kestrel-pay-devsecops/)** | Threat model, custom PCI Semgrep rules, a CI security gate, a Python evidence-pack script, FAIR on the top risk and an internal audit of the SDLC (simulated engagement, real tooling) |
+| 6 | **[Brunel University ISO 27001 documentation audit](deliverables/12-brunel-iso27001-documentation-audit.md)** | Auditing a real, public ISMS policy set, including the 2013→2022 transition gap |
 
 ---
 
@@ -55,7 +56,7 @@ assessments build on it. Client profile: [`oscorp-profile.md`](capstone-nist-pro
 | --- | --- | --- |
 | [Supplier security assessment](deliverables/09-horizon-labs-assessment.md) | Third-party risk | Compared with solution |
 
-### Stark Industries — ISO 27001 guided project *(in progress)*
+### Stark Industries — ISO 27001 guided project
 
 A small New York SaaS company seeking certification for one product. Profile:
 [`stark-industries-profile.md`](modules/12-iso27001-lead-auditor/stark-industries-profile.md).

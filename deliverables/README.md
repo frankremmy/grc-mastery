@@ -40,12 +40,9 @@ Oscorp's SaaS supplier.
 
 ## Stark Industries
 
-ISO 27001 guided project — in progress. Profile:
+ISO 27001 guided project. Profile:
 [`../modules/12-iso27001-lead-auditor/stark-industries-profile.md`](../modules/12-iso27001-lead-auditor/stark-industries-profile.md).
-
-| Artefact | Module | Type | Status |
-| --- | --- | --- | --- |
-| ISMS document set — scope, policy, risk register, SoA, policies | 12 | ISMS | Not started |
+Clause-by-clause notes and audit critiques are in the module 12 folder.
 
 ## Brunel University London
 

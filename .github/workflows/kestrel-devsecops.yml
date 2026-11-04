@@ -1,0 +1,74 @@
+# DevSecOps pipeline for the Kestrel Pay case study.
+# Job 1 scans the deliberately vulnerable app in report-only mode (it is meant to fail).
+# Job 2 scans the remediated app and is the blocking gate a real team would merge against.
+name: kestrel-devsecops
+
+on:
+  push:
+    paths: ["case-studies/kestrel-pay-devsecops/**", ".github/workflows/kestrel-devsecops.yml"]
+  pull_request:
+    paths: ["case-studies/kestrel-pay-devsecops/**"]
+  schedule:
+    - cron: "17 3 * * 1"          # weekly re-scan: new CVEs appear without code changes
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    working-directory: case-studies/kestrel-pay-devsecops
+
+jobs:
+  scan-vulnerable:
+    name: Scan vulnerable app (report only)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install semgrep bandit pip-audit
+      - run: mkdir -p out && chmod 777 out
+      - name: SAST - Semgrep with custom PCI rules
+        run: semgrep scan --config .semgrep/pci-rules.yml --metrics off --json -o out/semgrep.json app || true
+      - name: SAST - Bandit
+        run: bandit -r app -f json -o out/bandit.json || true
+      - name: SCA - pip-audit
+        run: pip-audit -r app/requirements.txt -f json -o out/pipaudit.json || true
+      - name: Secrets - gitleaks
+        run: |
+          docker run --rm -v "$PWD:/repo" zricethezav/gitleaks:v8.18.4 \
+            detect --source /repo --no-git -f json -r /repo/out/gitleaks.json || true
+      - name: DAST - start app and run OWASP ZAP baseline
+        run: |
+          pip install -r app/requirements.txt
+          (cd app && python app.py &) && sleep 5
+          docker run --rm --network host -v "$PWD/out:/zap/wrk:rw" ghcr.io/zaproxy/zaproxy:stable \
+            zap-baseline.py -t http://127.0.0.1:5000/api/v1/cards/lookup -r zap-report.html -I || true
+      - name: Build evidence pack
+        run: python tools/evidence_pack.py out out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: evidence-vulnerable
+          path: case-studies/kestrel-pay-devsecops/out/
+
+  gate-remediated:
+    name: Security gate - remediated app (blocking)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install semgrep bandit pip-audit
+      - run: mkdir -p out
+      - run: semgrep scan --config .semgrep/pci-rules.yml --metrics off --json -o out/semgrep.json app-remediated
+      - run: bandit -r app-remediated -f json -o out/bandit.json
+      - run: pip-audit -r app-remediated/requirements.txt -f json -o out/pipaudit.json
+      - name: Gate - fail on any high or critical finding
+        run: python tools/evidence_pack.py out out --fail-on high
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: evidence-remediated
+          path: case-studies/kestrel-pay-devsecops/out/

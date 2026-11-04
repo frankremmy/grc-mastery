@@ -1,0 +1,66 @@
+rules:
+  - id: pci-cvv-or-pan-in-logs
+    languages: [python]
+    severity: ERROR
+    message: >-
+      Card data (PAN or CVV) is written to a log. Sensitive authentication data must never be
+      stored after authorisation, and PAN must be unreadable wherever it is stored
+      (PCI DSS v4.0.1 Req 3.3, 3.5; Secure Software Standard sensitive-data protection).
+    metadata: {owasp: "A09:2021", cwe: "CWE-532"}
+    patterns:
+      - pattern-either:
+          - pattern: logging.$F(..., $X.get("cvv"), ...)
+          - pattern: logging.$F(..., $X.get("pan"), ...)
+          - pattern: logging.$F(..., $X["cvv"], ...)
+          - pattern: logging.$F(..., $X["pan"], ...)
+  - id: sqli-string-concat
+    languages: [python]
+    severity: ERROR
+    message: SQL built by string concatenation with request input. Use parameterised queries (OWASP A03:2021, CWE-89).
+    metadata: {owasp: "A03:2021", cwe: "CWE-89"}
+    pattern-either:
+      - pattern: $DB.execute("..." + $X + "...", ...)
+      - pattern: $DB.execute("..." + $X, ...)
+  - id: weak-password-hash
+    languages: [python]
+    severity: ERROR
+    message: MD5/SHA1 used for passwords. Use a slow, salted KDF such as Argon2id or bcrypt (OWASP A02:2021, CWE-916).
+    metadata: {owasp: "A02:2021", cwe: "CWE-916"}
+    pattern-either:
+      - pattern: hashlib.md5(...)
+      - pattern: hashlib.sha1(...)
+  - id: hardcoded-live-api-secret
+    languages: [python]
+    severity: ERROR
+    message: Live-looking API secret in source. Load secrets from a vault or environment (OWASP A07:2021, CWE-798).
+    metadata: {owasp: "A07:2021", cwe: "CWE-798"}
+    pattern-regex: '"kp_live_[0-9a-f]{16,}"'
+  - id: flask-debug-enabled
+    languages: [python]
+    severity: WARNING
+    message: Flask debug=True exposes the interactive debugger (OWASP A05:2021, CWE-489).
+    metadata: {owasp: "A05:2021", cwe: "CWE-489"}
+    pattern: $APP.run(..., debug=True, ...)
+  - id: unauthenticated-money-endpoint
+    languages: [python]
+    severity: ERROR
+    message: Route handling refunds/payments has no authentication check (OWASP A01:2021, CWE-306).
+    metadata: {owasp: "A01:2021", cwe: "CWE-306"}
+    patterns:
+      - pattern: |
+          @app.route("$PATH", ...)
+          def $F(...):
+              ...
+      - metavariable-regex: {metavariable: $PATH, regex: '.*(refund|payment|payout).*'}
+      - pattern-not: |
+          @app.route("$PATH", ...)
+          def $F(...):
+              ...
+              check_key(...)
+              ...
+      # tuned after a false positive on the remediated code (see docs/03)
+      - pattern-not: |
+          @app.route("$PATH", ...)
+          @require_api_key
+          def $F(...):
+              ...

@@ -8,3 +8,7 @@ transcripts/
 *.m4a
 *.wav
 Claude outputs/
+
+# Kestrel case: local tooling and scratch output
+case-studies/kestrel-pay-devsecops/.venv/
+case-studies/kestrel-pay-devsecops/out/
