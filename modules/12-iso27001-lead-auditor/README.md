@@ -50,7 +50,7 @@ The guided project organisation is profiled in
 
 - [x] Practical assessment: interpret ISO 27001 certification
 - [x] Practical assessment: ISO 27001 audit — [Brunel documentation audit](../../deliverables/12-brunel-iso27001-documentation-audit.md) (10/10)
-- [ ] Final exam: ISO 27001 lead auditor
+- [x] Final exam: ISO 27001 lead auditor
 
 Deliverables live in [`../../deliverables/`](../../deliverables/) and are linked here once done.
 
