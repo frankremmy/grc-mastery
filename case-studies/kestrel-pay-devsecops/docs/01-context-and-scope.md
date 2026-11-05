@@ -29,7 +29,7 @@ The case starts when I join as **Information Security Officer** and the Head of 
 | **GDPR** | Cardholder names are personal data | Data minimisation, security of processing (Art. 32) |
 | **OWASP Top 10 / ASVS** | The engineering team's working vocabulary | Findings are written in OWASP terms so developers act on them |
 
-> The SSF documents are being revised: the Secure Software Standard is now at v2.0 and a Secure SLC v2.0 draft has been out for comment. I cite the control areas here, not requirement numbers. A real engagement would confirm the version the assessor will use.
+> Both SSF standards have been revised: the Secure Software Standard reached v2.0 (January 2026) and the Secure SLC Standard reached v2.0 (September 2026). Each carries a 12-month transition that starts once assessor training is available, so existing validations stay valid until revalidation. I cite control areas here rather than requirement numbers, and a real engagement would confirm with the assessor which version the assessment runs against.
 
 ## Stakeholders I'd work with
 

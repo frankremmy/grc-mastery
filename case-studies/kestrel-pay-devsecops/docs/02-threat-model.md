@@ -21,7 +21,7 @@ Trust boundaries: internet → gateway; gateway → API; API → data stores; de
 | # | Element | STRIDE | Threat | Existing control | Gap → design requirement |
 |---|---|---|---|---|---|
 | T1 | Refund endpoint | **S**poofing / **E**levation | Anyone who can reach the API issues refunds | API key on *some* routes | Every route authenticated by one shared decorator. Merchant identity bound to the key, not taken from user input |
-| T2 | Card lookup | **I**nformation disclosure | A merchant reads another merchant's cards by changing `merchant_id` | None | Tenant ID taken from the authenticated identity, never from the query string |
+| T2 | Card lookup | **I**nformation disclosure | A merchant reads another merchant's cards by changing `merchant_id` | None | Tenant ID derived from the authenticated credential, never from caller-controlled input. A header is no safer than a query string |
 | T3 | Card lookup | **T**ampering | SQL injection through `merchant_id` | None | Parameterised queries only. SAST rule enforced in CI |
 | T4 | Log store | **I**nformation disclosure | PAN/CVV in logs is readable by everyone with log or SIEM access | None | No sensitive authentication data anywhere. PAN masked before logging |
 | T5 | Refund endpoint | **T**ampering | Refund amount manipulated without limit | None | Server-side limit and validation. Refunds above the threshold need dual approval |

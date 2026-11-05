@@ -4,11 +4,12 @@ Kestrel Pay - refunds & card-lookup API, remediated version.
 Fictional company, training code. Each fix references the finding ID from
 docs/03-code-review-findings.md.
 """
+import hashlib
+import json
 import logging
 import os
 import sqlite3
 from functools import wraps
-from hmac import compare_digest
 
 from argon2 import PasswordHasher
 from flask import Flask, g, jsonify, request
@@ -16,10 +17,19 @@ from flask import Flask, g, jsonify, request
 app = Flask(__name__)
 logging.basicConfig(filename="api.log", level=logging.INFO)
 
-API_SECRET = os.environ["KP_API_SECRET"]          # KP-01: secret from env/vault, not source
+# KP-01: secrets from env/vault, never source.
+# KP-10: one key per merchant, so tenant identity is a property of the credential.
+# Keys are held as SHA-256 digests; lookup is by digest, so no secret is compared byte by byte.
+_API_KEYS = {hashlib.sha256(key.encode()).hexdigest(): merchant
+             for key, merchant in json.loads(os.environ["KP_API_KEYS"]).items()}
 DB_PATH = os.environ.get("KP_DB_PATH", "kestrel.db")
 MAX_REFUND = float(os.environ.get("KP_MAX_REFUND", "500"))
 ph = PasswordHasher()                               # KP-07: Argon2id
+
+
+def merchant_for_key(key: str):
+    """Return the merchant bound to this API key, or None."""
+    return _API_KEYS.get(hashlib.sha256(key.encode()).hexdigest())
 
 
 def db():
@@ -32,13 +42,14 @@ def mask_pan(pan: str) -> str:
 
 
 def require_api_key(view):
-    """KP-04: one decorator, applied to every route, constant-time compare."""
+    """KP-04: one decorator on every route. KP-10: tenant comes from the key, not the request."""
     @wraps(view)
     def wrapper(*args, **kwargs):
-        key = request.headers.get("X-API-Key", "")
-        if not compare_digest(key, API_SECRET):
+        merchant = merchant_for_key(request.headers.get("X-API-Key", ""))
+        if merchant is None:
             return jsonify(error="unauthorised"), 401
-        g.merchant = request.headers.get("X-Merchant-Id")
+        # Never read the tenant from args, headers or body: both are caller-controlled.
+        g.merchant = merchant
         return view(*args, **kwargs)
     return wrapper
 

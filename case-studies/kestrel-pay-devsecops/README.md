@@ -23,11 +23,12 @@
 
 | | Before | After |
 |---|---|---|
-| Semgrep (custom PCI/OWASP rules) | 6 | 0 |
+| Semgrep (7 custom PCI/OWASP rules) | 7 | 0 |
 | Bandit | 5 | 0 |
 | Dependency advisories (pip-audit) | 27 | 0 |
-| Normalised unique findings | **12** (2 critical, 8 high) | **0**, gate passes |
+| Normalised unique findings | **13** (3 critical, 8 high, 1 medium, 1 low) | **0**, gate passes |
 | Findings only a human caught | 3 of 10: unmasked PAN, no refund limit, cross-tenant read | — |
+| Human findings later codified as CI rules | 1 of 3 (cross-tenant read → `tenant-id-from-request`) | — |
 | Audit result | — | 1 major NC (code review skipped on 6 of 15 PRs), 3 minor, 1 good practice |
 | Top risk, R-01 card data in logs | ≈ €95k annualised loss exposure | Treatment cost ≈ €6k |
 
@@ -38,6 +39,7 @@
 - **The false positive I created and fixed:** gate credibility depends on rule tuning.
 - **Why the audit is major on code review, not on scanning:** the control the organisation had already defined was the one that failed.
 - **Why I excluded my own pipeline from the audit's conformity conclusion:** independence.
+- **The fix that wasn't a fix:** my first remediation for the cross-tenant read moved the merchant ID from the query string to a header. Both are caller-controlled, so it fixed nothing. See lesson 5 in [03](docs/03-code-review-findings.md).
 
 ## Reproduce it
 
@@ -63,14 +65,35 @@ python3 tools/evidence_pack.py out out --fail-on high            # exits 0
 
 Bandit and pip-audit return non-zero when they find issues. On the vulnerable app that's expected.
 
+The remediated app reads its keys from the environment, one key per merchant:
+
+```bash
+export KP_API_KEYS='{"kp_test_merchant_a_key":"MERCH-A","kp_test_merchant_b_key":"MERCH-B"}'
+```
+
 ### Run on my machine
 
-**Vulnerable app.** Semgrep finds 6 issues with the custom rules. pip-audit reports 48 advisory entries across 5 packages; many are the same advisory listed under more than one ID or for more than one requirement. The evidence script de-duplicates everything into 12 unique findings and the gate blocks.
+**Vulnerable app.** Semgrep finds 7 issues with the custom rules. pip-audit reports 48 advisory entries across 5 packages; many are the same advisory listed under more than one ID or for more than one requirement. The evidence script de-duplicates everything into 13 unique findings and the gate blocks.
 
-![Scan of the vulnerable app: 6 Semgrep findings, 48 pip-audit entries, 12 unique findings, gate failed](docs/img/scan-vulnerable.png)
+![Scan of the vulnerable app: 7 Semgrep findings, 48 pip-audit entries, 13 unique findings, gate failed](docs/img/scan-vulnerable.png)
 
 **Remediated app.** 0 Semgrep findings, no known vulnerable dependencies, 0 findings in the evidence pack. The gate passes.
 
 ![Scan of the remediated app: 0 findings, no known vulnerabilities, gate passes](docs/img/scan-remediated.png)
 
 All card numbers are PCI test values. **Don't deploy `app/`**; it's deliberately vulnerable.
+
+## Limitations, and what I'd do next
+
+Stated plainly, because a gate you oversell is worse than one you scope honestly.
+
+| Limitation | What I'd do in production |
+|---|---|
+| **The gate fails open.** If a scanner errors, its JSON is absent, `evidence_pack.py` sees no findings and the gate passes | Require each expected report by name and fail closed when one is missing or malformed |
+| **ZAP is a passive baseline** against one unauthenticated endpoint. It is not meaningful DAST | Authenticated, OpenAPI-driven active scan against a deployed staging build, on a schedule rather than per-merge |
+| **Secret scanning and DAST run only in the report-only job**, not the blocking gate | Deliberate: secrets belong in push protection and pre-commit, because CI catches them after they are already in history; DAST needs a deployed environment the gate job doesn't have |
+| **De-duplication is by (finding title, file)**, so two distinct instances of the same class in one file collapse into one row | Correct for an evidence pack, wrong for a vulnerability count. Key on location when the output feeds a backlog rather than an assessor |
+| **Every pip-audit result is rated high**, regardless of CVSS, reachability or exploitability | Rank by EPSS and CISA KEV, confirm reachability, and let asset criticality weight the result. The hardcoded severity is what makes the demo gate usable, not what I'd ship |
+| **GitHub Actions are pinned by tag, not commit SHA** | Pin by SHA with Dependabot updates. A repo with a supply-chain finding category should not have an unpinned action in its own pipeline |
+| **Evidence hashes are SHA-256 truncated to 16 hex characters**, and the index itself is neither hashed nor signed | Full digests, signed and timestamped (Sigstore or GPG), with tool and rule-set versions recorded alongside |
+| **The remediated app still does not** check a refund against the original capture, enforce idempotency keys, rate-limit, handle ISO 4217 minor units, or require dual approval above the threshold (the T5 design requirement) | All are real payment-logic controls. They are out of scope for a teaching app, and they are exactly what the pen test brief in [06](docs/06-testing-and-assessor-liaison.md) sends to a human tester |

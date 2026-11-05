@@ -22,23 +22,25 @@ CONTROL_MAP = {
     "pci-cvv-or-pan-in-logs":       ("Card data written to logs", "critical",
                                      "PCI DSS 3.3.1, 3.5.1; ISO 27001 A.8.11, A.8.15"),
     "sqli-string-concat":           ("SQL injection", "high",
-                                     "PCI DSS 6.2.4; OWASP A03; ISO 27001 A.8.28"),
+                                     "PCI DSS 6.2.4; OWASP A05:2025; ISO 27001 A.8.28"),
     "B608":                         ("SQL injection", "high",
-                                     "PCI DSS 6.2.4; OWASP A03; ISO 27001 A.8.28"),
+                                     "PCI DSS 6.2.4; OWASP A05:2025; ISO 27001 A.8.28"),
     "unauthenticated-money-endpoint": ("Unauthenticated refund endpoint", "critical",
-                                     "PCI DSS 6.2.4, 7.2; OWASP A01; ISO 27001 A.8.3"),
+                                     "PCI DSS 6.2.4, 7.2.1; OWASP A01:2025; ISO 27001 A.8.3"),
+    "tenant-id-from-request":       ("Tenant identifier taken from caller input", "critical",
+                                     "PCI DSS 6.2.4, 7.2.1; OWASP A01:2025; ISO 27001 A.5.15, A.8.3"),
     "hardcoded-live-api-secret":    ("Hardcoded secret", "high",
-                                     "PCI DSS 6.2.4, 8.6.2; OWASP A07; ISO 27001 A.8.24"),
+                                     "PCI DSS 6.2.4, 8.6.2; OWASP A07:2025; ISO 27001 A.8.24"),
     "B105":                         ("Hardcoded secret", "high",
-                                     "PCI DSS 6.2.4, 8.6.2; OWASP A07; ISO 27001 A.8.24"),
+                                     "PCI DSS 6.2.4, 8.6.2; OWASP A07:2025; ISO 27001 A.8.24"),
     "weak-password-hash":           ("Weak password hashing", "high",
-                                     "PCI DSS 8.3.2; OWASP A02; ISO 27001 A.8.24"),
+                                     "PCI DSS 8.3.2; OWASP A04:2025; ISO 27001 A.8.24"),
     "B324":                         ("Weak password hashing", "high",
-                                     "PCI DSS 8.3.2; OWASP A02; ISO 27001 A.8.24"),
+                                     "PCI DSS 8.3.2; OWASP A04:2025; ISO 27001 A.8.24"),
     "flask-debug-enabled":          ("Debug mode enabled", "medium",
-                                     "PCI DSS 2.2.4; OWASP A05; ISO 27001 A.8.9"),
+                                     "PCI DSS 2.2.4; OWASP A02:2025; ISO 27001 A.8.9"),
     "B201":                         ("Debug mode enabled", "medium",
-                                     "PCI DSS 2.2.4; OWASP A05; ISO 27001 A.8.9"),
+                                     "PCI DSS 2.2.4; OWASP A02:2025; ISO 27001 A.8.9"),
     "B104":                         ("Binds to all interfaces", "low",
                                      "PCI DSS 1.2.5; ISO 27001 A.8.20"),
 }
@@ -94,7 +96,7 @@ def main():
         for tool, rule, path, loc in parser(data):
             if tool == "pip-audit":
                 title, sev, ctrl = ("Vulnerable dependency", "high",
-                                    "PCI DSS 6.3.1, 6.3.3; OWASP A06; ISO 27001 A.8.8")
+                                    "PCI DSS 6.3.1, 6.3.3; OWASP A03:2025; ISO 27001 A.8.8")
             else:
                 title, sev, ctrl = CONTROL_MAP.get(rule, (rule, "medium", "triage required"))
             # de-duplicate the same issue reported by two tools (lines can differ by one)
@@ -121,7 +123,7 @@ def main():
         "semgrep.json": "SAST with custom PCI rules (PCI DSS 6.2.4, 6.3.2; Secure SLC)",
         "bandit.json": "Python SAST (PCI DSS 6.2.4)",
         "pipaudit.json": "Software composition analysis (PCI DSS 6.3.1, 6.3.3)",
-        "zap-report.html": "DAST baseline (PCI DSS 6.4.1, 11.3)",
+        "zap-report.html": "DAST baseline against a running build (PCI DSS 6.2.4; Secure SLC\n                            vulnerability detection). Passive scan only: not a substitute for\n                            the Req 11.4 penetration test",
         "gitleaks.json": "Secret scanning (PCI DSS 8.6.2)",
     }
     for name, why in purpose.items():

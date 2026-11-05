@@ -1,13 +1,14 @@
 id,title,severity,tool,rule,location,controls
-SC-01,Unauthenticated refund endpoint,critical,semgrep,unauthenticated-money-endpoint,app/app.py:42,"PCI DSS 6.2.4, 7.2; OWASP A01; ISO 27001 A.8.3"
-SC-02,Card data written to logs,critical,semgrep,pci-cvv-or-pan-in-logs,app/app.py:47,"PCI DSS 3.3.1, 3.5.1; ISO 27001 A.8.11, A.8.15"
-SC-03,Hardcoded secret,high,semgrep,hardcoded-live-api-secret,app/app.py:17,"PCI DSS 6.2.4, 8.6.2; OWASP A07; ISO 27001 A.8.24"
-SC-04,SQL injection,high,semgrep,sqli-string-concat,app/app.py:35,PCI DSS 6.2.4; OWASP A03; ISO 27001 A.8.28
-SC-05,Weak password hashing,high,semgrep,weak-password-hash,app/app.py:59,PCI DSS 8.3.2; OWASP A02; ISO 27001 A.8.24
-SC-06,Vulnerable dependency,high,pip-audit,flask==2.0.1,"requirements.txt:2 advisories: PYSEC-2023-62, PYSEC-2026-2151","PCI DSS 6.3.1, 6.3.3; OWASP A06; ISO 27001 A.8.8"
-SC-07,Vulnerable dependency,high,pip-audit,werkzeug==2.0.1,"requirements.txt:12 advisories: PYSEC-2022-203, PYSEC-2023-221, PYSEC-2023-57...","PCI DSS 6.3.1, 6.3.3; OWASP A06; ISO 27001 A.8.8"
-SC-08,Vulnerable dependency,high,pip-audit,requests==2.25.1,"requirements.txt:4 advisories: PYSEC-2023-74, PYSEC-2026-1872, PYSEC-2026-1873...","PCI DSS 6.3.1, 6.3.3; OWASP A06; ISO 27001 A.8.8"
-SC-09,Vulnerable dependency,high,pip-audit,idna==2.10,"requirements.txt:2 advisories: PYSEC-2024-60, PYSEC-2026-215","PCI DSS 6.3.1, 6.3.3; OWASP A06; ISO 27001 A.8.8"
-SC-10,Vulnerable dependency,high,pip-audit,urllib3==1.26.20,"requirements.txt:7 advisories: PYSEC-2026-141, PYSEC-2026-1994, PYSEC-2026-1996...","PCI DSS 6.3.1, 6.3.3; OWASP A06; ISO 27001 A.8.8"
-SC-11,Debug mode enabled,medium,semgrep,flask-debug-enabled,app/app.py:66,PCI DSS 2.2.4; OWASP A05; ISO 27001 A.8.9
-SC-12,Binds to all interfaces,low,bandit,B104,app/app.py:66,PCI DSS 1.2.5; ISO 27001 A.8.20
+SC-01,Tenant identifier taken from caller input,critical,semgrep,tenant-id-from-request,app/app.py:33,"PCI DSS 6.2.4, 7.2.1; OWASP A01:2025; ISO 27001 A.5.15, A.8.3"
+SC-02,Unauthenticated refund endpoint,critical,semgrep,unauthenticated-money-endpoint,app/app.py:42,"PCI DSS 6.2.4, 7.2.1; OWASP A01:2025; ISO 27001 A.8.3"
+SC-03,Card data written to logs,critical,semgrep,pci-cvv-or-pan-in-logs,app/app.py:47,"PCI DSS 3.3.1, 3.5.1; ISO 27001 A.8.11, A.8.15"
+SC-04,Hardcoded secret,high,semgrep,hardcoded-live-api-secret,app/app.py:17,"PCI DSS 6.2.4, 8.6.2; OWASP A07:2025; ISO 27001 A.8.24"
+SC-05,SQL injection,high,semgrep,sqli-string-concat,app/app.py:35,PCI DSS 6.2.4; OWASP A05:2025; ISO 27001 A.8.28
+SC-06,Weak password hashing,high,semgrep,weak-password-hash,app/app.py:59,PCI DSS 8.3.2; OWASP A04:2025; ISO 27001 A.8.24
+SC-07,Vulnerable dependency,high,pip-audit,flask==2.0.1,"requirements.txt:2 advisories: PYSEC-2023-62, PYSEC-2026-2151","PCI DSS 6.3.1, 6.3.3; OWASP A03:2025; ISO 27001 A.8.8"
+SC-08,Vulnerable dependency,high,pip-audit,werkzeug==2.0.1,"requirements.txt:12 advisories: PYSEC-2022-203, PYSEC-2023-221, PYSEC-2023-57...","PCI DSS 6.3.1, 6.3.3; OWASP A03:2025; ISO 27001 A.8.8"
+SC-09,Vulnerable dependency,high,pip-audit,requests==2.25.1,"requirements.txt:4 advisories: PYSEC-2023-74, PYSEC-2026-1872, PYSEC-2026-1873...","PCI DSS 6.3.1, 6.3.3; OWASP A03:2025; ISO 27001 A.8.8"
+SC-10,Vulnerable dependency,high,pip-audit,idna==2.10,"requirements.txt:2 advisories: PYSEC-2024-60, PYSEC-2026-215","PCI DSS 6.3.1, 6.3.3; OWASP A03:2025; ISO 27001 A.8.8"
+SC-11,Vulnerable dependency,high,pip-audit,urllib3==1.26.20,"requirements.txt:7 advisories: PYSEC-2026-141, PYSEC-2026-1994, PYSEC-2026-1996...","PCI DSS 6.3.1, 6.3.3; OWASP A03:2025; ISO 27001 A.8.8"
+SC-12,Debug mode enabled,medium,semgrep,flask-debug-enabled,app/app.py:66,PCI DSS 2.2.4; OWASP A02:2025; ISO 27001 A.8.9
+SC-13,Binds to all interfaces,low,bandit,B104,app/app.py:66,PCI DSS 1.2.5; ISO 27001 A.8.20
